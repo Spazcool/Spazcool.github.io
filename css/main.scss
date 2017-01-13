@@ -13,12 +13,9 @@ body {
 .header {
 	float: left;
 	clear: left;
-	background-color: ;
 	top: 0%;
 	min-height: 65px;
 	margin-bottom: 40px;
-	text-align: ;
-	color: ;
 	position: fixed;
 	z-index: 1;
 	/*border: 5px red dotted;*/
@@ -30,8 +27,7 @@ body {
 }
 
 .about-button {
-	margin: ;
-	padding: ;
+
 	text-align: left;
 	background-color: rgba(0, 0, 0, 0.1);
 	height: 3em;
@@ -49,8 +45,7 @@ body {
 }
 
 .work-button {
-	margin: ;
-	padding: ;
+	
 	text-align: left;
 	background-color: rgba(0, 0, 0, 0.1);
 	height: 3em;
@@ -68,8 +63,7 @@ body {
 }
 
 .find-button {
-	margin: ;
-	padding: ;
+
 	text-align: left;
 	background-color: rgba(0, 0, 0, 0.1);
 	height: 3em;
@@ -92,8 +86,7 @@ body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin: 2em 0em 0em 0em;
-	position: ;
-	padding: ;
+
 	/*border: 5px blue dotted; */
 }
 
@@ -113,8 +106,7 @@ body {
 }
 
 .sub-nav-button {
-	margin: ;
-	padding: ;
+
 	background-color: rgba(0, 0, 0, 0.1);
 	height: 50px;
 	width: 250px;
@@ -202,7 +194,7 @@ h1:hover{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: ;
+	
 	position: fixed;
 	/*border: 5px #099FFF dotted; */
 }
@@ -298,13 +290,7 @@ margin-top: 1em;
 .footer {
 	background-color: black;
 	padding: 2rem 0rem 2rem 0rem;
-	bottom: ;
-	min-height: ;
-	margin-top: ;
-	text-align: ;
-	float: ;
-	clear: ;
-	position: ;
+
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -318,7 +304,7 @@ margin-top: 1em;
 
 .f1_container {
   position: relative;
-  margin: ;
+
   width: 33%;
   height: 21em;
   /*z-index: 1;*/
@@ -355,7 +341,7 @@ margin-top: 1em;
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
-  padding: ;
+
   color: white;
   text-align: center;
   background-color: ;
