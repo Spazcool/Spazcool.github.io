@@ -1,11 +1,10 @@
-/* PAGE LAYOUT */
-body {
+
+body{
 	font-family: Michroma, sans-serif;
 	color: white;
 	background-color: black;
 }
 
-/* MENU */
 .header {
 	float: left;
 	clear: left;
@@ -17,12 +16,6 @@ body {
 	color: ;
 	position: fixed;
 	z-index: 1;
-	/*border: 5px red dotted;*/
-	/*width: 100%;
-	height: 100%;*/
-	/*color: #FFFFFF; */
-	/* display: table;*/
-	/*overflow: auto;*/
 }
 
 .about-button {
@@ -90,13 +83,12 @@ body {
 	margin: 2em 0em 0em 0em;
 	position: ;
 	padding: ;
-	/*border: 5px blue dotted; */
 }
 
 #menuIcon{
 
 }
-/*this is not working on a mac*/
+
 #menuIcon:hover {
 	filter: brightness(30%);
 }
@@ -138,7 +130,6 @@ body {
 .links {
 	margin: 1em 0;
 	font-family: "Michroma", sans-serif;
-	/*border: 5px #099FFF dotted;*/
 }
 
 ul {
@@ -146,13 +137,11 @@ ul {
 	padding: 0;
 }
 
-/*HOVER PICS*/
-
 #pic-div{
 	z-index: -2;
 }
 .stacked{
-position: absolute;
+	position: absolute;
 	margin-top: 65%;
 	margin-left:10%;
 }
@@ -183,7 +172,7 @@ position: absolute;
 	opacity: 0;
 }
 
-/* TITLE PAGE*/
+
 h1 {
 	font-size: 7rem;
 	top: 40%;
@@ -200,24 +189,14 @@ h1:hover{
 	flex-wrap: wrap;
 	margin-top: ;
 	position: fixed;
-	/*border: 5px #099FFF dotted; */
 }
 
 #lightning1 {
-	/*z-index: -6;*/
+	
 }
 
 #lightning2 {
 	left:7%;
-	/*FLIPS THE IMAGE
-	-moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
-	filter: FlipH;
-	-ms-filter: "FlipH";
-	border: 5px yellow dotted;
-	*/
 }
 
 .title {
@@ -227,15 +206,8 @@ h1:hover{
 	background-size: cover;
 	color: #FF00FF;
 	font-weight: bold;
-	/*border: 5px green dotted;
-	float: left;
-	clear: both;
-	display: block;
-	margin: ;
-	z-index: 0;	*/
 }
 
-/*ABOUT ME*/
 #about-link{
 }
 .about-me {
@@ -243,33 +215,10 @@ h1:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
-	/*border: 5px yellow dotted;
-	float: right;
-	clear: both;
-	position: absolute ;
-	display: block;
-	margin: ;
-	z-index: 0;*/
 }
-
-/*
-#fccCV {
-	border: 10px;
-	border-style: solid;
-	border-color: red;
-	margin: ;
-}
-
-#ccCV {
-	border: 10px;
-	border-style: solid;
-	border-color: blue;
-	margin: ;
-}
-*/
 
 .badge-box {
-margin-top: 1em;
+	margin-top: 1em;
 }
 
 .badges:hover {
@@ -287,7 +236,6 @@ margin-top: 1em;
 	border-color: white;
 }
 
-/*CONTACT ME*/
 #contact-link{
 }
 
@@ -304,12 +252,6 @@ margin-top: 1em;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	 /*border: 5px #099FFF dotted;*/
-	/*width: 100%;
-	height: 100%;*/
-	/*color: #FFFFFF; */
-	/* display: table;*/
-	/*overflow: auto;*/
 }
 
 .f1_container {
@@ -317,22 +259,13 @@ margin-top: 1em;
   margin: ;
   width: 33%;
   height: 21em;
-  /*z-index: 1;*/
-/*border: 5px red dotted;*/
 }
-
-/*
-.f1_container {
-  perspective: 1000;
-}
-*/
 
 .f1_card {
   width:100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: all 1.0s linear;
-   /*border: 5px blue dotted;*/
 }
 
 .f1_container:hover .f1_card {
@@ -344,7 +277,6 @@ margin-top: 1em;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  /* border: 5px green dotted;*/
 }
 
 .face.back{
@@ -355,29 +287,24 @@ margin-top: 1em;
   color: white;
   text-align: center;
   background-color: ;
-  /*border: 5px yellow dotted;*/
 }
 
 
 h5{
 	position: absolute;
 	margin: 0;
-    top: 50%;
+   	 top: 50%;
 	left: 50%;
-	    transform: translate(-50%, -50%);
-  	/*  border: 3px solid green; */
+	  transform: translate(-50%, -50%);
 }
 
 h6{
 	position: absolute;
 	margin: 0;
-    top: 35%;
+    	top: 35%;
 	left: 50%;
-	    transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	font-size:0.75em;
-	/*position: absolute;
-	top: 35%;
-	left: 29%; */
 }
 
 .social {
@@ -390,5 +317,4 @@ h6{
 	clear: right;
 	margin-top: ;
 	padding-top: ;
-	/*border: 5px green dotted;*/
 }
