@@ -1,8 +1,56 @@
 <header class="site-header">
 
+	<!--MENU ICON-->
+	<div class="header col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class='menu col-xs-3 col-sm-2 col-md-2 col-lg-2'>
+			<div class="nav-button"><img src="http://orig15.deviantart.net/7e94/f/2016/272/5/2/menu_sm_by_spazcool-daj9pl4.png" width="30%" height="auto" id= "menuIcon"></div>
+			<!--MENU LISTS-->
+			<ul class='links'>
+				<div class='nav-button sub-nav-button' id="about">About Me</div>
+				<ul class='links'>
+					<li><a class="btn btn-default btn-lg about-button" href="#about-link" role="button">About Me</a></li>
+					<li><a class="btn btn-default btn-lg about-button" href="#contact-link" role="button">Contact Me</a></li>
+				</ul>
+
+				<div class='nav-button sub-nav-button' id="work">My Work</div>
+				<ul class='links'>
+
+					<!--NEED TO HAVE THE IMAGES SHOW ON HOVER. WITH 80'S BORDERS-->
+					<li><a class="btn btn-default btn-lg work-button" id="solar" href="http://codepen.io/SpazCool/full/OXRjbP/" target="_blank" role="button">Second Solar System</a></li>
+					<li><a class="btn btn-default btn-lg work-button" id="wiki" href="http://codepen.io/SpazCool/full/xEbRyV/" target="_blank" role="button">Wikipedia Viewer</a></li>
+					<li><a class="btn btn-default btn-lg work-button" id="tyson" href="http://codepen.io/SpazCool/full/bpVdxQ/" target="_blank" role="button">Dr. Tyson Tribute</a></li>
+					<!--<li><a class="btn btn-default btn-lg  work-button" href="http://codepen.io/SpazCool/full/qZLdbM/" target="_blank" role="button">Random Quoter</a></li>-->
+					<li><a class="btn btn-default btn-lg work-button" id="twitch" href="http://codepen.io/SpazCool/full/wzGAyr/" target="_blank" role="button">Twitch.tv Guide</a></li>
+					<li><a class="btn btn-default btn-lg work-button" id="weather" href="http://codepen.io/SpazCool/full/XdLmEa/" target="_blank" role="button">Weather App</a></li>
+					<!--<li><a class="btn btn-default btn-lg work-button" href="https://scratch.mit.edu/projects/94734954/" target="_blank" role="button">Space Attack</a></li>-->
+
+					<!--MAKE A NEW PAGE AS A WORK WAREHOUSE-->
+					<li><a class="btn btn-default btn-lg work-button" id="ware" href="http://codepen.io/SpazCool/" target="_blank" role="button">Full List</a></li>
+				</ul>
+
+				<div class='nav-button sub-nav-button' id="find">Find Me</div>
+				<ul class='links'>
+					<li><a class="btn btn-default btn-lg find-button" href="http://www.freecodecamp.com/spazcool" target="_blank" role="button">freeCodeCamp(&#128293;)</a></li>
+					<li><a class="btn btn-default btn-lg find-button" href="http://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button" target="_blank" role="button">LinkedIn &#128101;</a></li>
+					<li><a class="btn btn-default btn-lg find-button" href="https://github.com/Spazcool" target="_blank" role="button">GitHub &#128570;</a></li>
+					<li><a class="btn btn-default btn-lg target find-button" href="https://scratch.mit.edu/users/SpazCool/" target="_blank" role="button">Scratch &#128062;</a></li>
+				</ul>
+		</div>
+			<div class="col-md-3" id="pic-div">
+			<div class="stacked" id="solar-pic"><img src="http://orig06.deviantart.net/9745/f/2016/273/1/0/solarscreen_by_spazcool-dajdpq8.jpg" height="200px" width="auto"/></div>
+			<div class="stacked" id="twitch-pic"><img src ="http://orig06.deviantart.net/30cc/f/2016/311/e/b/twitchscreen_by_spazcool-danom4o.jpg" height="200px" width="auto"/></div>
+			<div class="stacked" id="tyson-pic"><img src ="http://orig10.deviantart.net/4238/f/2016/273/4/5/tysonscreen_by_spazcool-dajdpuj.jpg" height="200px" width="auto"/></div>
+			<div class="stacked" id="ware-pic"><img src ="http://orig05.deviantart.net/f5e8/f/2016/273/d/c/warescreen_by_spazcool-dajdpw6.jpg" height="200px" width="auto"/></div>
+			<div class="stacked" id="weather-pic"><img src ="http://img13.deviantart.net/a297/i/2016/294/b/c/weatherapp_by_spazcool-dalq24s.jpg" height="200px" width="auto"/></div>
+			<div class="stacked" id="wiki-pic"><img src ="http://orig15.deviantart.net/1ed2/f/2016/273/2/6/wikscreen_by_spazcool-dajdq0a.jpg" height="200px" width="auto"/></div>
+		</div>
+
+	</div>
+<!--BELOW THIS IS MOSTLY UNCHANGED -->		
+		
   <div class="wrapper">
   
-<!--site.title = my name here-->
+<!--site.title = my name here-->  
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
