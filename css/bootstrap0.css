@@ -12,6 +12,19 @@ html {
 body {
   margin: 0;
 }
+body{
+	font-family: Michroma, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+@-moz-document url-prefix() { 
+  body {
+	font-family: Michroma, sans-serif;
+	color: white;
+	background-color: black;
+  }
+}
 article,
 aside,
 details,
