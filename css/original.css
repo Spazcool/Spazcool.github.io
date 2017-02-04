@@ -223,9 +223,17 @@ h1:hover{
 	padding: 5rem 0rem 5rem 0rem;
 	color: white;
 	font-family: Michroma, sans-serif;
-	font-size: 3em;
+	font-size: 1em;
 	
 }
+@-moz-document url-prefix() { 
+  .about-me {
+	color: white;
+	font-family: Michroma, sans-serif;
+	font-size: 1em;
+  }
+}
+
 
 .badge-box {
 	margin-top: 1em;
