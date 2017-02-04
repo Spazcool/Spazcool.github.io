@@ -234,6 +234,14 @@ h1:hover{
   }
 }
 
+@-moz-document url-prefix() { 
+  #plan {
+	color: white;
+	font-family: Michroma, sans-serif;
+	font-size: 1em;
+  }
+}
+
 
 .badge-box {
 	margin-top: 1em;
