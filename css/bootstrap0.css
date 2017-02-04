@@ -9,13 +9,12 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-}
+
 body{
 	font-family: Michroma, sans-serif;
 	color: white;
 	background-color: black;
+	margin: 0;
 }
 
 @-moz-document url-prefix() { 
