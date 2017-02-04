@@ -183,6 +183,7 @@ h1 {
 	font-size: 7rem;
 	top: 40%;
 	position: absolute;
+	color:white;
 }
 
 h1:hover{
@@ -245,6 +246,7 @@ h1:hover{
 
 .badge-box {
 	margin-top: 1em;
+	color:white;
 }
 
 .badges:hover {
@@ -267,6 +269,7 @@ h1:hover{
 
 .footer {
 	background-color: black;
+	color:white;
 	padding: 2rem 0rem 2rem 0rem;
 	bottom: ;
 	min-height: ;
@@ -318,6 +321,7 @@ h1:hover{
 
 h5{
 	position: absolute;
+	color:white;
 	margin: 0;
    	 top: 50%;
 	left: 50%;
@@ -331,16 +335,19 @@ h6{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size:0.75em;
+	color:white;
 }
 
 .social {
 	width: 50%;
 	height: 50%;
 	float: left;
+	color:white;
 }
 
 .created{
 	clear: right;
 	margin-top: ;
 	padding-top: ;
+	color:white;
 }
