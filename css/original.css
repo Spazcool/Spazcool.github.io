@@ -4,11 +4,10 @@ body{
 	color: white;
 	background-color: black;
 }
+
 @-moz-document url-prefix() { 
   body {
-     font-family: Michroma, sans-serif;
 	color: white;
-	background-color: black;
   }
 }
 
