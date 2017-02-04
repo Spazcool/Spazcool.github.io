@@ -1,121 +1,38 @@
 <!DOCTYPE HTML PUBLIC>
-body{
-	font-family: Michroma, sans-serif;
+body {
+	font-family: "Michroma", sans-serif;
 	color: white;
 	background-color: black;
 }
 
-@-moz-document url-prefix() { 
-  body {
-	color: white;
-  }
-}
-
 .header {
-	float: left;
-	clear: left;
-	background-color: ;
-	top: 0%;
-	min-height: 65px;
-	margin-bottom: 40px;
-	text-align: ;
-	color: ;
 	position: fixed;
 	z-index: 1;
-}
-
-.about-button {
-	margin: ;
-	padding: ;
-	text-align: left;
-	background-color: rgba(0, 0, 0, 0.1);
-	height: 3em;
-	width: 16em;
-	border-color: #357ebd;
-	font-size: 1.1em;
-	color: white;
-	font-family: "Michroma", sans-serif;
-	border-radius: 0;
-}
-
-.about-button:hover {
-	background-color: rgba(110, 13, 208, 0.5);
-	border-color: #6E0DD0;
-}
-
-.work-button {
-	margin: ;
-	padding: ;
-	text-align: left;
-	background-color: rgba(0, 0, 0, 0.1);
-	height: 3em;
-	width: 16em;
-	border-color: #357ebd;
-	font-size: 0.9em;
-	color: white;
-	font-family: "Michroma", sans-serif;
-	border-radius: 0;
-}
-
-.work-button:hover {
-	background-color: rgba(204, 0, 255, 0.5);
-	border-color: #CC00FF;
-}
-
-.find-button {
-	margin: ;
-	padding: ;
-	text-align: left;
-	background-color: rgba(0, 0, 0, 0.1);
-	height: 3em;
-	width: 16em;
-	border-color: #357ebd;
-	font-size: 1.1em;
-	color: white;
-	font-family: "Michroma", sans-serif;
-	border-radius: 0;
-}
-
-.find-button:hover {
-	background-color: rgba(255, 0, 204, 0.5);
-	border-color: #FF00CC;
+	margin: 2em 0em 0em 0em;
 }
 
 .menu {
-	z-index: 1;
-	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
-	margin: 2em 0em 0em 0em;
-	position: ;
-	padding: ;
 }
 
-#menuIcon{
-
+#menuIcon {
+	margin-bottom: 1em;
 }
 
 #menuIcon:hover {
 	filter: brightness(30%);
 }
 
-.nav-button:hover{
+.nav-button {}
+
+.nav-button:hover {
 	cursor: pointer;
-}
-.nav-button {
-	padding: 0px 0px 0px 0px;
 }
 
 .sub-nav-button {
-	margin: ;
-	padding: ;
 	background-color: rgba(0, 0, 0, 0.1);
-	height: 50px;
-	width: 250px;
-	color: white;
-	font-family: "Michroma", sans-serif;
-	font-size: 1.1em;
-	border-radius: 0;
+	font-size: 2em;
+	width: 8.8em;
 }
 
 #about:hover {
@@ -133,9 +50,43 @@ body{
 	border-color: #FF00CC;
 }
 
+.sub-sub-nav-button {
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	height: 3em;
+	width: 16em;
+	border-color: #357ebd;
+	font-size: 1.1em;
+	border-radius: 0;
+}
+
+.sub-sub-nav-button:hover {
+	border-color: #6E0DD0;
+	color: white;
+	font-size: 1.11em;
+}
+
+.about-button {}
+
+.about-button:hover {
+	background-color: rgba(110, 13, 208, 0.6);
+}
+
+.work-button {}
+
+.work-button:hover {
+	background-color: rgba(204, 0, 255, 0.6);
+}
+
+.find-button {}
+
+.find-button:hover {
+	background-color: rgba(255, 0, 204, 0.6);
+}
+
 .links {
-	margin: 1em 0;
-	font-family: "Michroma", sans-serif;
+	margin-bottom: 1em;
 }
 
 ul {
@@ -143,70 +94,7 @@ ul {
 	padding: 0;
 }
 
-#pic-div{
-	z-index: -2;
-}
-.stacked{
-	position: absolute;
-	margin-top: 65%;
-	margin-left:10%;
-}
-
-#solar-pic{
-	z-index: -3;
-	opacity: 0;
-}
-
-#twitch-pic{
-	z-index: -3;
-	opacity: 0;
-}
-#tyson-pic{
-	z-index: -3;
-	opacity: 0;
-}
-#ware-pic{
-	z-index: -3;
-	opacity: 0;
-}
-#weather-pic{
-	z-index: -3;
-	opacity: 0;
-}
-#wiki-pic{
-	z-index: -4;
-	opacity: 0;
-}
-
-
-h1 {
-	font-size: 7rem;
-	top: 40%;
-	position: absolute;
-	color:white;
-}
-
-h1:hover{
-	cursor: pointer;
-}
-
-.lightning {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-top: ;
-	position: fixed;
-}
-
-#lightning1 {
-	
-}
-
-#lightning2 {
-	left:7%;
-}
-
-.title {
+.title-page {
 	height: 100vh;
 	background-image: url("http://pre11.deviantart.net/e837/th/pre/i/2016/262/d/a/retro_80s_arcade_game_awesome_by_spazcool-dai5bt0.jpg");
 	background-repeat: no-repeat;
@@ -215,43 +103,33 @@ h1:hover{
 	font-weight: bold;
 }
 
-#about-link{
+.title {
+	top: 40%;
 }
+
+.title:hover {
+	cursor: pointer;
+}
+
+.lightning {
+	position: fixed;
+}
+
+#lightning1 {
+}
+
+#lightning2 {
+	left: 7%;
+}
+
+#about-link {}
+
 .about-me {
 	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
-	color: white;
-	font-family: Michroma, sans-serif;
-	font-size: 1em;
-	
-}
-@-moz-document url-prefix() { 
-  .about-me {
-	color: white;
-	font-family: Michroma, sans-serif;
-	font-size: 1em;
-  }
-}
-
-@-moz-document url-prefix() { 
-  #plan {
-	color: white;
-	font-family: Michroma, sans-serif;
-	font-size: 1em;
-  }
-}
-
-
-.badge-box {
-	margin-top: 1em;
-	color:white;
-}
-
-.badges:hover {
-	box-shadow: 0 0 20px blue;
-	filter: brightness(200%);
+	font-size: 1.3em;
 }
 
 .less-round-box {
@@ -264,90 +142,82 @@ h1:hover{
 	border-color: white;
 }
 
-#contact-link{
+ol {
+	list-style: none;
 }
 
+#done {}
+
+.badge-box {
+	margin-top: 1em;
+}
+
+#fccCV {}
+
+#ccCV {}
+
+.badges:hover {
+	box-shadow: 0 0 20px blue;
+	filter: brightness(200%);
+}
+
+#contact-link {}
 .footer {
-	background-color: black;
-	color:white;
 	padding: 2rem 0rem 2rem 0rem;
-	bottom: ;
-	min-height: ;
-	margin-top: ;
-	text-align: ;
-	float: ;
-	clear: ;
-	position: ;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .f1_container {
-  position: relative;
-  margin: ;
-  width: 33%;
-  height: 21em;
+	min-height: 16em;
+	padding: 1em;
 }
 
 .f1_card {
-  width:100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: all 1.0s linear;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
 }
 
 .f1_container:hover .f1_card {
-  transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+	position: fixed;
+	backface-visibility: hidden;
 }
 
-.face.back{
-  display: block;
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  padding: ;
-  color: white;
-  text-align: center;
-  background-color: ;
+.face.back {
+	transform: rotateY(180deg);
+	text-align: center;
+	padding: ;
+	display: block;	
+	box-sizing: border-box;
 }
-
-
-h5{
+.email-link {
 	position: absolute;
-	color:white;
-	margin: 0;
-   	 top: 50%;
-	left: 50%;
-	  transform: translate(-50%, -50%);
-}
-
-h6{
-	position: absolute;
-	margin: 0;
-    	top: 35%;
-	left: 50%;
+	top: 50%;
+	padding: 0px 0px 0px 0px;
 	transform: translate(-50%, -50%);
-	font-size:0.75em;
-	color:white;
+	font-size: 0.83vw;
 }
-
+.nudge{
+	margin-top: 2vw;
+}
 .social {
-	width: 50%;
-	height: 50%;
-	float: left;
-	color:white;
+	margin-top: 1vw;
 }
 
-.created{
-	clear: right;
+.created {
+	float: center;
+	clear: both;
 	margin-top: ;
-	padding-top: ;
-	color:white;
+	padding-top: 1vw;
+}
+a{
+	color:inherit;
+}
+a:hover{
+	color:red;
 }
