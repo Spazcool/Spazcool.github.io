@@ -221,6 +221,10 @@ h1:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
+	color: white;
+	font-family: Michroma, sans-serif;
+	font-size: 3em;
+	
 }
 
 .badge-box {
