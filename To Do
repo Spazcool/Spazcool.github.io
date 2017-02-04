@@ -1,8 +1,9 @@
 *house imgs here
 *list divs are too small, can't see the right edge of them
 *make the lists div not cover everything on dropdown
-*imgs are still covering the fCC link
+*imgs are still covering the fCC link (maybe just remove them)
 *safari is not running the js or the css / flipping some of the imgs
+*firefox not reading the css completely, black text and the fb image on rollover
 *responsive 
 *link to github at bottom
 *
