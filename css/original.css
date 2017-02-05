@@ -1,18 +1,27 @@
 <!DOCTYPE HTML PUBLIC>
-
 body {
 	font-family: "Michroma", sans-serif;
 	color: white;
 	background-color: black;
 }
 
-.myheader {
+
+/* @-moz-document url-prefix() { 
+  body {
+     color:lime;
+  }
+} */
+
+
+/* MENU */
+
+.header {
 	position: fixed;
 	z-index: 1;
 	margin: 2em 0em 0em 0em;
 }
 
-.mymenu {
+.menu {
 	flex-wrap: wrap;
 }
 
@@ -23,6 +32,9 @@ body {
 #menuIcon:hover {
 	filter: brightness(30%);
 }
+
+
+/*MENU ICON AND THE THREE SECTION BUTTONS (SUB NAVS)  */
 
 .nav-button {}
 
@@ -50,6 +62,9 @@ body {
 	background-color: rgba(255, 0, 204, 0.5);
 	border-color: #FF00CC;
 }
+
+
+/*INDIVIDUAL LINKS*/
 
 .sub-sub-nav-button {
 	text-align: left;
@@ -95,20 +110,23 @@ ul {
 	padding: 0;
 }
 
-.mytitle-page {
+
+/* TITLE PAGE*/
+
+.title-page {
 	height: 100vh;
-	width: 100vw;
-/* 	background-image: {% posts titleback.jpg %}; */
 	background-image: url("http://pre11.deviantart.net/e837/th/pre/i/2016/262/d/a/retro_80s_arcade_game_awesome_by_spazcool-dai5bt0.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #FF00FF;
+	font-weight: bold;
 }
 
-.mytitle {
-	top: 40vh;
+.title {
+	top: 40%;
 }
 
-.mytitle:hover {
+.title:hover {
 	cursor: pointer;
 }
 
@@ -117,11 +135,15 @@ ul {
 }
 
 #lightning1 {
+	/*z-index: -6;*/
 }
 
 #lightning2 {
 	left: 7%;
 }
+
+
+/*ABOUT ME*/
 
 #about-link {}
 
@@ -162,22 +184,36 @@ ol {
 	filter: brightness(200%);
 }
 
+/*CONTACT ME*/
 #contact-link {}
-.myfooter {
+.footer {
 	padding: 2rem 0rem 2rem 0rem;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+/* 	border: 5px #099FFF dotted; */
 }
 
 .f1_container {
 	min-height: 16em;
 	padding: 1em;
+/* 	border: 5px red dotted; */
+/* 	position: relative; */	
+/* 	width: 33%; */	
+	/*z-index: 1;*/
 }
+/* .f1_container {
+  perspective: 10;
+} */
 
 .f1_card {
 	transform-style: preserve-3d;
 	transition: all 1.0s linear;
+	height: ;
+/* 	border: 5px blue dotted;	 */
+/* 	width: 100%; */
+/* 	height: 50%; */	
+	
 }
 
 .f1_container:hover .f1_card {
@@ -187,6 +223,9 @@ ol {
 .face {
 	position: fixed;
 	backface-visibility: hidden;
+/* 	width: 100%;
+	height: 100%; */
+	/* border: 5px green dotted;*/
 }
 
 .face.back {
@@ -202,19 +241,26 @@ ol {
 	padding: 0px 0px 0px 0px;
 	transform: translate(-50%, -50%);
 	font-size: 0.83vw;
+/* 	left: 50%; */
+/* 	border: 5px dotted white; */
 }
 .nudge{
 	margin-top: 2vw;
 }
-.mysocial {
+.social {
+/* 	width: 50%; */
+/* 	height: 50%; */
 	margin-top: 1vw;
+/* 	float: left; */
+/* 	border: 5px solid red; */
 }
 
-.mycreated {
+.created {
 	float: center;
 	clear: both;
 	margin-top: ;
 	padding-top: 1vw;
+/* 	border: 5px green dotted; */
 }
 a{
 	color:inherit;
