@@ -187,8 +187,8 @@ ol {
 
 /*CONTACT ME*/
 #contact-link {}
-.footer {
-	min-height: 16em;
+.sfooter {
+	height: 16em;
 	padding: 2rem 0rem 2rem 0rem;
 /* 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg"); */
 	background-repeat: no-repeat;
