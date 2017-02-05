@@ -148,9 +148,10 @@ ul {
 #about-link {}
 
 .about-me {
+	height: 100vw;
 	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+/* 	background-size: cover; */
 	padding: 5rem 0rem 5rem 0rem;
 	font-size: 1.3em;
 }
