@@ -1,6 +1,6 @@
 function menu() {
-	$(".menu").hide();
-	$(".menu").fadeIn(5000);
+	$(".mymenu").hide();
+	$(".mymenu").fadeIn(5000);
 	$(".links").hide();
 	$(".nav-button").on("click", function() {
 		$(this).next().slideToggle(400);
@@ -9,7 +9,7 @@ function menu() {
 
 function lightning() {
 	$(".lightning").hide();
-	$(".title").on("click", function() {
+	$(".mytitle").on("click", function() {
 		for (var i = 0; i < 4; i++) {
 			$(".lightning").fadeIn(80);
 			$(".lightning").fadeOut(130);
