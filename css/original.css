@@ -148,7 +148,7 @@ ul {
 #about-link {}
 
 .about-me {
-	height: 100vw;
+	height: 100vh;
 	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 /* 	background-size: cover; */
@@ -191,6 +191,7 @@ ol {
 	padding: 2rem 0rem 2rem 0rem;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
+	height: 100vh;
 	background-size: cover;
 /* 	border: 5px #099FFF dotted; */
 }
