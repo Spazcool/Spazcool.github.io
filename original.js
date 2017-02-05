@@ -1,3 +1,4 @@
+$(document).ready(function() {
 function menu() {
 	$(".menu").hide();
 	$(".menu").fadeIn(5000);
@@ -22,3 +23,5 @@ function lightning() {
 $(window).resize();
 $(document).ready(menu);
 $(document).ready(lightning);
+	
+});
