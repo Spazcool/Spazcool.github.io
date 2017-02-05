@@ -2,10 +2,14 @@ HEADER:
 *house imgs here
 *list divs are too small, can't see the right edge of them
 *make the lists div not cover everything on dropdown
-*imgs are still covering the fCC link (maybe just remove them)
+
+ABOUT ME:
+*background img not filling screen horizontally
 
 FOOTER:
 *link to github at bottom
+*too small for links
+*background img not filling screen horizontally
 
 BROWSERS:
 *safari is not running the js or the css / flipping some of the imgs
