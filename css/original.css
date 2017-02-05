@@ -117,7 +117,7 @@ ul {
 	height: 100vh;
 	background-image: url("http://pre11.deviantart.net/e837/th/pre/i/2016/262/d/a/retro_80s_arcade_game_awesome_by_spazcool-dai5bt0.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+/* 	background-size: cover; */
 	color: #FF00FF;
 	font-weight: bold;
 }
