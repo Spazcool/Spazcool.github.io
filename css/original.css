@@ -188,13 +188,13 @@ ol {
 /*CONTACT ME*/
 #contact-link {}
 .footer {
-	height: 600px;
+	min-height: 16em;
 	padding: 2rem 0rem 2rem 0rem;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 /* 	height: 100vh; */
 	background-size: cover;
-/* 	border: 5px #099FFF dotted; */
+	border: 5px #099FFF dotted;
 }
 
 .f1_container {
