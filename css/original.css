@@ -118,8 +118,8 @@ ul {
 	background-image: url("http://pre11.deviantart.net/e837/th/pre/i/2016/262/d/a/retro_80s_arcade_game_awesome_by_spazcool-dai5bt0.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: #FF00FF;
-	font-weight: bold;
+/* 	color: #FF00FF;
+	font-weight: bold; */
 }
 
 .title {
@@ -188,6 +188,7 @@ ol {
 /*CONTACT ME*/
 #contact-link {}
 .footer {
+	height: 200px;
 	padding: 2rem 0rem 2rem 0rem;
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
