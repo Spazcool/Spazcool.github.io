@@ -258,6 +258,7 @@ ol {
 }
 
 .created {
+	bottom: 2%;
 	float: center;
 	clear: both;
 	margin-top: 8em;
