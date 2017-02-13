@@ -193,13 +193,13 @@ ol {
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
- 	border: 5px white dotted;
+/*  	border: 5px white dotted; */
 }
 
 .f1_container {
 	min-height: 16em;
 	padding: 1em;
- 	border: 5px red dotted; 
+/*  	border: 5px red dotted;  */
 /* 	position: relative; */	
 /* 	width: 33%; */	
 	/*z-index: 1;*/
@@ -264,7 +264,7 @@ ol {
 	margin-top: 8em;
 	padding-top: 8em;
 	min-height: 8em;
-	border: 5px green dotted;
+/* 	border: 5px green dotted; */
 }
 a{
 	color:inherit;
