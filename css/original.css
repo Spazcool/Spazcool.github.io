@@ -1,7 +1,14 @@
 <!DOCTYPE HTML PUBLIC>
-/*PC*/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-	
+/*PHONES*/
+@media screen and (min-device-width: 600px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
+	.about-me {
+	height: ;
+	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5rem 0rem 5rem 0rem;
+	font-size: 1.3em;
+}
 }
 
 body {
