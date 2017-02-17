@@ -2,7 +2,7 @@
 /*PHONES*/
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 	.about-me {
-	height: 200px;
+/* 	height: 200px; */
 	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -160,7 +160,7 @@ ul {
 #about-link {}
 
 .about-me {
-	height: 100vh;
+/* 	height: 100vh; */
 	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
