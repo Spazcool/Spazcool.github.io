@@ -205,13 +205,11 @@ ol {
 	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-/*  	border: 5px white dotted; */
 }
 
 .f1_container {
 	min-height: 16em;
 	padding: 1em;
-/*  	border: 5px red dotted;  */
 /* 	position: relative; */	
 /* 	width: 33%; */	
 	/*z-index: 1;*/
@@ -224,7 +222,6 @@ ol {
 	transform-style: preserve-3d;
 	transition: all 1.0s linear;
 	min-height: 16em;
-/* 	border: 5px blue dotted;	 */
 /* 	width: 100%; */
 /* 	height: 50%; */	
 	
@@ -239,7 +236,6 @@ ol {
 	backface-visibility: hidden;
 /* 	width: 100%;
 	height: 100%; */
-/* 	border: 5px red dotted; */
 }
 
 .face.back {
@@ -255,8 +251,6 @@ ol {
 	padding: 0px 0px 0px 0px;
 	transform: translate(-50%, -50%);
 	font-size: 0.83vw;
-/* 	left: 50%; */
-/* 	border: 5px dotted white; */
 }
 .nudge{
 	margin-top: 2vw;
@@ -266,18 +260,16 @@ ol {
 /* 	width: 50%; */
 /* 	height: 50%; */
 /* 	float: left; */
-/* 	border: 5px solid red; */
 }
 
 .created {
-	bottom: 2%;
-/* 	float: center; */
+	bottom: 0%;
 	clear: both;
 	margin-top: 8em;
 	padding-top: 8em;
 	min-height: 8em;
-/* 	border: 5px green dotted; */
 }
+
 a{
 	color:inherit;
 }
