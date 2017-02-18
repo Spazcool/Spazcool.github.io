@@ -266,8 +266,8 @@ ol {
 	bottom: 0%;
 	clear: both;
 	margin-top: 8em;
-	padding-top: 8em;
-	min-height: 8em;
+	padding-top: 16em;
+	min-height: 2em;
 }
 
 a{
