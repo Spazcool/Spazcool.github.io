@@ -1,5 +1,6 @@
 ---
 layout: twitch
-title: twitch
+title: Twitch
 permalink: /twitch/
 ---
+blah
