@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC>
+body {
+	background-color: #000000;
+	width: 100%;
+	height: 100vh;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #292929 0%, rgba(0, 0, 255, 0) 50%, #1A1A1A 95%);
+	color: white;
+	font-size: 1.5em;
+}
+
+.well {
+	border-color: black;
+}
+
+.row {
+	background-color: ;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/*HEADER*/
+
+.header {
+	background-color: #6441a5;
+	text-align: center;
+	position: fixed;
+	/*min-height: 10%;*/
+	max-height: 70%;
+	z-index: 2;
+}
+
+h1 {
+	font-family: "Bungee", "sans-serif";
+	font-weight: bold;
+	color: white;
+	font-size: 3em;
+}
+
+/*FIRST TIME DOING THIS, FINGERS CROSSED*/
+/*PC*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+	h1 {
+		font-family: "Bungee", "sans-serif";
+		font-weight: bold;
+		color: white;
+		font-size: 3em;
+	}
+	.header{
+		max-height: 70%;
+	}
+	
+	.offOrOn{
+		font-size: 0.5em;
+	}
+}
+/*TABLET*/
+@media screen and (min-device-width: 600px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.3) {
+	h1 {
+		font-family: "Bungee", "sans-serif";
+		font-weight: bold;
+		color: white;
+		font-size: 2em;
+	}
+	.header{
+		max-height: 60%;
+	}
+	.offOrOn{
+		font-size: 0.5em;
+	}
+}
+/*PHONE*/
+@media screen and (min-device-width: 300px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 1.3) {
+	h1 {
+		font-family: "Bungee", "sans-serif";
+		font-weight: bold;
+		color: white;
+		font-size: 1.5em;
+	}
+	.header{
+		max-height: 40%;
+	}
+}
+
+.title {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: 'Black Ops One', "sans-serif";
+	font-size: 3em;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: #FF00AA;
+}
+
+
+/*CONTAINER*/
+
+.container {
+	float: left;
+	width: 100%;
+	/*margin-top:7%;*/
+	background-color: ;
+	z-index: 1;
+}
+
+
+/*ONLINE / OFFLINE LIST*/
+
+#colorsHere {
+	background-color: #000000;
+	margin-top: 15%;
+}
+
+
+/*CONTAINER FOR THE ONLINE DUDES*/
+
+#ONHere {
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	background-color: #000000;
+	padding: 0;
+}
+
+
+/*CONTAINER FOR THE OFFLINE DUDES*/
+
+#OFFHere {
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	background-color: #000000;
+	padding: 0;
+}
+
+
+/*CONTAINER FOR THE ERROR DUDES*/
+
+#NOHere {
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	background-color: #000000;
+	padding: 0;
+}
+
+
+/*THREE CLASSES OF DUDES*/
+
+.logo {
+	width: 4em;
+	height: auto;
+	border: 1px solid black;
+}
+
+.logo:hover {
+	filter: brightness(200%);
+}
+
+.online {
+	background-color: #8A2BE2;
+	color: #cccccc;
+	margin-bottom: 1ew;
+	font-weight: bold;
+	font-family: ;
+}
+
+.offline {
+	background-color: #E31230;
+	color: #cccccc;
+	margin-bottom: 1em;
+	font-weight: bold;
+	font-family: ;
+}
+
+.noAccount {
+	background-color: #FF1493;
+	color: #cccccc;
+	margin-bottom: 1em;
+	font-weight: bold;
+	font-family: ;
+}
+
+
+/*CHANNEL CARD*/
+
+h3 {
+	font-family: ;
+	font-size: 1.3em;
+}
+
+.stats {
+	background-color: ;
+	float: left;
+	min-height: 10px;
+	margin-top: 1%;
+	padding: ;
+}
+
+.viewers {
+	background-color: black;
+	float: left;
+	height: 5em;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.game {
+	background-color: black;
+	float: left;
+	height: 5em;
+	margin-bottom: 1%;
+}
+
+.fps {
+	background-color: black;
+	float: left;
+	height: 5em;
+	margin-bottom: 1%;
+}
+
+.screenHold {
+	background-color: black;
+	float: right;
+	height: 15.7em;
+	margin-top: 1%;
+	/*overflow:auto;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.screens {
+	height: 100%;
+	width: 100%
+}
+
+.offOrOn {
+	font-size:;
+	padding:0px 10px 0px 0px;
+}
+
+.offOrOn:hover {
+	text-shadow: 0 0 20px blue;
+	filter: brightness(200%);
+}
+
+
+/*FOOTER*/
+
+.footsy {
+	float: left;
+	clear: left;
+	background-color: ;
+	bottom: 0%;
+	min-height: 3em;
+	margin-bottom: ;
+	text-align: ;
+	color: ;
+	position: fixed;
+	z-index: 1;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+}
+
+
+/*BUTTONS*/
+
+.bob {
+	padding: 2% 0;
+}
+
+#refresh {
+	padding-top: 4% 0;
+	border: 1px solid black;
+	background-color: #FF00AA;
+	font-family: ;
+}
