@@ -1,0 +1,102 @@
+/*HEADER*/
+.header {
+	/*#6441a5*/
+	background-color:  #0892D0;
+	text-align: center;
+	max-height: 70%;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #2C75FF 0%, rgba(0, 0, 255, 0) 50%, #2C75AA 95%);
+
+}
+
+.title {
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: 'Black Ops One', "sans-serif";
+	font-size: 3em;
+	color: ;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: #FF00AA;
+}
+
+/* BASE STYLING */
+body {
+	background-color: #000000;
+	width: 100%;
+	height: 100vh;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #4f4f4f 0%, rgba(0, 0, 255, 0) 50%, #1A1A1A 95%);
+	color: black;
+	font-size: 1.5em;
+
+}
+
+.workspace{
+	padding-top: 2%;
+/* 	border: 3px dotted white; */
+}
+.calculator{
+/* 	border: 3px dotted blue; */
+}
+
+/*BUTTONS*/
+.buts {
+	padding-top: 4% 0;
+	border: 1px solid white;
+	background-color: #FF00AA;
+	font-family: "Black Ops One", "sans-serif";
+	font-weight: bold;
+}
+
+.buts:hover {
+	background-color: white;
+}
+
+.ops{
+	background-color: #099FFF;
+}
+
+.power{
+	background-color: #FF0000;
+	font-size: 2em;
+	padding-top: 0.36em;
+	padding-bottom: 0.38em;
+}
+
+.screenHold {
+	border: 4px solid pink;
+	background-color: black;
+	height: 26.5em;
+	/*WOULD LIKE THIS TO BE A HEIGHT THAT IS RELATIVE TO THE CALCULATOR*/
+}
+
+#screen {
+	height: inherit;
+	width: 100%;
+	color: red;
+	font-family: "Orbitron", "sans-serif";
+	font-size: 2em;
+	overflow-wrap: break-word;
+	text-align: right;
+/* 	border: 3px dotted green; */
+}
+
+/*FOOTER*/
+.footsy {
+	float: left;
+	clear: left;
+	background-color: ;
+	bottom: 0%;
+	min-height: 3em;
+	margin-bottom: ;
+	text-align: ;
+	color: red;
+	position: fixed;
+	z-index: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+}
