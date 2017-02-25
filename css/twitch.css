@@ -17,9 +17,6 @@ body {
 	padding: 0px 0px 0px 0px;
 }
 
-
-/*HEADER*/
-
 .header {
 	background-color: #6441a5;
 	text-align: center;
@@ -96,7 +93,7 @@ a:hover {
 }
 
 
-/*CONTAINER*/
+
 
 .container {
 	float: left;
@@ -268,6 +265,14 @@ h3 {
 
 .bob {
 	padding: 2% 0;
+}
+
+.home{
+	padding: 2% 0;
+}
+
+.home:hover{	
+	filter: brightness(200%);
 }
 
 #refresh {
