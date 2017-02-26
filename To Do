@@ -1,20 +1,22 @@
-HEADER:
-*house imgs here
-*list divs are too small, can't see the right edge of them
-*make the lists div not cover everything on dropdown
+Home-
+  HEAD:
+  HEADER:
+    *list divs are too small on smaller screens, relative sizing is off
+    *codepen link
+  ABOUT ME:
+    *make fcc and cc links rotate on hover, revealing my current stats with those sites
+    *include one for hackerrank?
+  FOOTER:
+    *git and li img are not filling to their border
+    *switch out the rotate icons here for static ones / browser selector for moz and saf
 
-ABOUT ME:
-*background img not filling screen horizontally
-
-FOOTER:
-*link to github at bottom
-*too small for links
-*background img not filling screen horizontally
-
-BROWSERS:
-*safari is not running the js or the css / flipping some of the imgs
-*firefox not reading the css completely, black text and the fb image on rollover
-
-COOLER:
-*responsive 
-*tab image
+Twitch-
+  HEAD: 
+    *favicon
+  HEADER:
+    *home button padding
+    *home button glow
+   
+Calc-
+  HEAD:
+    *not sure how to link to files that i've placed in folders, "/" not working...
