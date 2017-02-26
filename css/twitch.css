@@ -272,7 +272,7 @@ h3 {
 }
 
 .home:hover{	
-	filter: brightness(200%);
+	filter:invert(100%);
 }
 
 #refresh {
