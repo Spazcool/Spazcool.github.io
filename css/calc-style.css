@@ -5,7 +5,14 @@
 	text-align: center;
 	max-height: 70%;
 	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #2C75FF 0%, rgba(0, 0, 255, 0) 50%, #2C75AA 95%);
+}
 
+.home{
+	padding: 2% 0;
+}
+
+.home:hover{	
+	filter:invert(100%);
 }
 
 .title {
