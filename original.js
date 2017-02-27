@@ -1,7 +1,9 @@
 
 function menu() {
 	$(".menu").hide();
+	$(".blog").hide();	
 	$(".menu").fadeIn(5000);
+	$(".blog").fadeIn(5000);
 	$(".links").hide();
 	$(".nav-button").on("click", function() {
 		$(this).next().slideToggle(400);
