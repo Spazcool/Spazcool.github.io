@@ -27,6 +27,24 @@ body {
 
 /* MENU */
 
+.blog{
+	position: absolute;
+	z-index: 1;
+/* 	border: 5px dotted red;	 */
+}
+
+#blog{
+	float: right;
+	margin-top: 2em;
+/* 	margin-left: 20%; */
+/* 	padding-left:10%; */
+	
+}
+#blog:hover{
+/* 	filter: invert(); */
+	filter: brightness(20%);
+}
+
 .header {
 	position: fixed;
 	z-index: 1;
