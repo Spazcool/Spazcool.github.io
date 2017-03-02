@@ -281,7 +281,7 @@ ol {
 }
 
 .created {
-	bottom: 0%;
+/* 	bottom: 0%; */
 	clear: both;
 	margin-top: 8em;
 	padding-top: 16em;
@@ -295,13 +295,19 @@ a:hover{
 	color:red;
 }
 
-
-.footsy {
+.created1{
+}
+.footsy1 {
 	clear: both;
 	background-color: ;
 	padding-bottom: 1em; 
 	font-size: 0.75em;
 }
-.social:hover {
+.links1{
+}
+.social1{
+	margin-top: 1vw;
+}
+.social1:hover {
 	filter: brightness(200%);
 }
