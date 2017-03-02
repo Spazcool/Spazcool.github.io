@@ -312,10 +312,15 @@ a:hover{
 .social1{
 	margin-top: 1vw;
 }
-.social1:hover {
-/* 	filter: brightness(200%); */
+.social1: hover {
+ 	filter: brightness(200%); 
 	filter: invert();
 }
+
+
+
+
+
 
 .ie .footsy1 {
   display: none;
