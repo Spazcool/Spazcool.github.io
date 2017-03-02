@@ -294,3 +294,14 @@ a{
 a:hover{
 	color:red;
 }
+
+
+.footsy {
+	clear: both;
+	background-color: ;
+	padding-bottom: 1em; 
+	font-size: 0.75em;
+}
+.social:hover {
+	filter: brightness(200%);
+}
