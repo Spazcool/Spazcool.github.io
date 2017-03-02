@@ -339,10 +339,13 @@ a:hover{
 .konqueror .footsy1 {
   display: none;
 }
-.chrome .footsy1{
-	display: none;
-}
 .webkit .sfooter {
   display: none;
+}
+.chrome  .footsy1{
+	display: none;
+}
+.chrome  .sfooter{
+	display: inline;
 }
 
