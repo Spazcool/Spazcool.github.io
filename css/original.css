@@ -3,7 +3,7 @@
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 	.about-me {
 /* 	height: 200px; */
-	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
+	background-image: url("Spazcool.github.io/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
@@ -145,7 +145,7 @@ ul {
 
 .title-page {
 	height: 100vh;
-	background-image: url("http://pre11.deviantart.net/e837/th/pre/i/2016/262/d/a/retro_80s_arcade_game_awesome_by_spazcool-dai5bt0.jpg");
+	background-image: url("Spazcool.github.io/imgs/portfolio/title/titleback.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 /* 	color: #FF00FF;
@@ -179,7 +179,7 @@ ul {
 
 .about-me {
 /* 	height: 100vh; */
-	background-image: url("http://img09.deviantart.net/5475/i/2016/264/e/8/wnhfv0g_by_spazcool-daidx3w.jpg");
+	background-image: url("Spazcool.github.io/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
@@ -220,7 +220,7 @@ ol {
 .sfooter {
 	height: 50vh;
 /* 	padding: 2rem 0rem 2rem 0rem; */
-	background-image: url("http://orig07.deviantart.net/46eb/f/2016/264/e/f/freevector_80s_background_by_spazcool-daiduml.jpg");
+	background-image: url("Spazcool.github.io/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -299,9 +299,13 @@ a:hover{
 }
 .footsy1 {
 	clear: both;
-	background-color: ;
-	padding-bottom: 1em; 
+	padding: 1em 0em 1em 0em; 
 	font-size: 0.75em;
+	height: 50vh;
+/* 	padding: 2rem 0rem 2rem 0rem; */
+	background-image: url("Spazcool.github.io/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .links1{
 }
@@ -309,5 +313,6 @@ a:hover{
 	margin-top: 1vw;
 }
 .social1:hover {
-	filter: brightness(200%);
+/* 	filter: brightness(200%); */
+	filter: invert();
 }
