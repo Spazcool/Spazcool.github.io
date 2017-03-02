@@ -316,3 +316,32 @@ a:hover{
 /* 	filter: brightness(200%); */
 	filter: invert();
 }
+
+.ie .footsy1 {
+  display: none;
+}
+.ie7 .footsy1 {
+  display: none;
+}
+.gecko .sfooter {
+  display: none;
+}
+.win.gecko .sfooter {
+  display: none;
+}
+.linux.gecko .sfooter {
+  display: none;
+}
+.opera .sfooter {
+  display: none;
+}
+.konqueror .footsy1 {
+  display: none;
+}
+.chrome .footsy1{
+	display: none;
+}
+.webkit .footsy1 {
+  display: none;
+}
+
