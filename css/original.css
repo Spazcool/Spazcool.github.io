@@ -3,7 +3,7 @@
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 	.about-me {
 /* 	height: 200px; */
-	background-image: url("Spazcool.github.io/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
+	background-image: url("/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
@@ -145,7 +145,7 @@ ul {
 
 .title-page {
 	height: 100vh;
-	background-image: url("Spazcool.github.io/imgs/portfolio/title/titleback.jpg");
+	background-image: url("/imgs/portfolio/title/titleback.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 /* 	color: #FF00FF;
@@ -179,7 +179,7 @@ ul {
 
 .about-me {
 /* 	height: 100vh; */
-	background-image: url("Spazcool.github.io/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
+	background-image: url("/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 5rem 0rem 5rem 0rem;
@@ -220,7 +220,7 @@ ol {
 .sfooter {
 	height: 50vh;
 /* 	padding: 2rem 0rem 2rem 0rem; */
-	background-image: url("Spazcool.github.io/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
+	background-image: url("/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -303,7 +303,7 @@ a:hover{
 	font-size: 0.75em;
 	height: 50vh;
 /* 	padding: 2rem 0rem 2rem 0rem; */
-	background-image: url("Spazcool.github.io/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
+	background-image: url("/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -316,10 +316,6 @@ a:hover{
  	filter: brightness(200%); 
 	filter: invert();
 }
-
-
-
-
 
 
 .ie .footsy1 {
@@ -346,7 +342,7 @@ a:hover{
 .chrome .footsy1{
 	display: none;
 }
-.webkit .footsy1 {
+.webkit .sfooter {
   display: none;
 }
 
