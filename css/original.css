@@ -296,12 +296,13 @@ a:hover{
 }
 
 .created1{
+	padding-top: 1em;
 }
 .footsy1 {
 	clear: both;
 	padding: 1em 0em 1em 0em; 
-	font-size: 0.75em;
-	height: 50vh;
+	font-size: 2em;
+/* 	height: 50vh; */
 /* 	padding: 2rem 0rem 2rem 0rem; */
 	background-image: url("/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
@@ -310,18 +311,18 @@ a:hover{
 .links1{
 }
 .social1{
-	margin-top: 1vw;
+	margin: 1em 0em 1em 0em;
 }
 .social1: hover {
- 	filter: brightness(200%); 
-	filter: invert();
+ 	filter: brightness(20%); 
+/* 	filter: invert(); */
 }
 
 
-.ie .footsy1 {
+.ie .sfooter {
   display: none;
 }
-.ie7 .footsy1 {
+.ie7 .sfooter {
   display: none;
 }
 .gecko .sfooter {
@@ -335,6 +336,9 @@ a:hover{
 }
 .opera .sfooter {
   display: none;
+}
+.opera .title-page {
+	height: 100%;
 }
 .konqueror .footsy1 {
   display: none;
