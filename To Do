@@ -2,21 +2,21 @@ Home-
   HEAD:
   HEADER:
     *list divs are too small on smaller screens, relative sizing is off
-    *codepen link
   ABOUT ME:
     *make fcc and cc links rotate on hover, revealing my current stats with those sites
     *include one for hackerrank?
   FOOTER:
-    *git and li img are not filling to their border
-    *switch out the rotate icons here for static ones / browser selector for moz and saf
+  
+Calculator-
+  JS: 
+    *I got a lot of work to do there
 
-Twitch-
-  HEAD: 
-    *favicon
-  HEADER:
-    *home button padding
-    *home button glow
-   
-Calc-
+Pomodoro-
+  JS: 
+    *I got a lot of work to do there
+        
+Blog-
   HEAD:
-    *not sure how to link to files that i've placed in folders, "/" not working...
+  HEADER:
+  BODY:
+  FOOTER:
