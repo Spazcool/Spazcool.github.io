@@ -1,5 +1,6 @@
 body {
  	height: 100vh;
+	width: 100vh;
 	font-family: Helvetica;
 	background-color: black;
 	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #AAAAAA 10%, rgba(255, 0, 255, 0) 100%, #505050 10%);
