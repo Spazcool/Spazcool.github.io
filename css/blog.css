@@ -3,9 +3,17 @@ body {
 	width: 100vh;
 	font-family: Helvetica;
 	background-color: black;
-	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #AAAAAA 10%, rgba(255, 0, 255, 0) 100%, #505050 10%);
 	background-repeat: no-repeat;
    	background-attachment: fixed;
+/* 	 background-image: url(images/radial_bg.png); */
+  	background-position: center center;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #AAAAAA 10%, rgba(255, 0, 255, 0) 100%, #505050 10%);
+/* 
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#000000));
+  background: -webkit-radial-gradient(circle, #FFFFFF, #000000);
+  background: -moz-radial-gradient(circle, #FFFFFF, #000000);
+  background: -ms-radial-gradient(circle, #FFFFFF, #000000);
+	*/
 }
 
 a {
