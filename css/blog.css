@@ -1,19 +1,19 @@
 body {
- 	height: 100vh;
-	width: 100vh;
 	font-family: Helvetica;
 	background-color: black;
-	background-repeat: no-repeat;
-   	background-attachment: fixed;
-/* 	 background-image: url(images/radial_bg.png); */
-  	background-position: center center;
 	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #AAAAAA 10%, rgba(255, 0, 255, 0) 100%, #505050 10%);
-/* 
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#000000));
-  background: -webkit-radial-gradient(circle, #FFFFFF, #000000);
-  background: -moz-radial-gradient(circle, #FFFFFF, #000000);
-  background: -ms-radial-gradient(circle, #FFFFFF, #000000);
-	*/
+/*  	
+	height: 100vh;
+	width: 100vh; 
+ 	background-repeat: no-repeat;
+   	background-attachment: fixed; 
+ 	background-image: url(images/radial_bg.png); 
+   	background-position: center center; 
+  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#000000));
+  	background: -webkit-radial-gradient(circle, #FFFFFF, #000000);
+  	background: -moz-radial-gradient(circle, #FFFFFF, #000000);
+  	background: -ms-radial-gradient(circle, #FFFFFF, #000000);
+*/
 }
 
 a {
@@ -37,29 +37,20 @@ h1 {
 	background-color: #00688B;
 	padding:0.5em;
 	max-height: 70%;
-	/*background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #00688B 0%, rgba(0, 0, 255, 0) 50%, #00688B 95%);*/
-	/*background-image: url= "http://api.thumbr.it/whitenoise-1080x720.png?background=#00688Bff&noise=858185&density=44&opacity=98";*/
-
-
 }
 
 .homes{
 	padding: 0.2em 1.5em 0.1em 0em;
 	top:0%;
-	/*position: absolute;*/
-	/*border: 5px dotted green;*/
-
 }
 
 #home {
-/* 	padding: 0em 0.5em 1em 0.5em; */
- 	/*float:left; */
-	/*border: 8px solid red;*/
 }
 
 #home:hover {
 	filter: invert();
 }
+
 .title{
 	padding-top: 0.4em;
 
@@ -123,22 +114,10 @@ li {
 	color: whitesmoke;
 }
 
-
 .footsy {
-/* 	float: left; */
 	clear: both;
 	background-color: ;
-/* 	bottom: 0%; */
-/* 	min-height: 3em;
-	margin-bottom: ;
-	text-align: ;
-	color: ; */
-/* 	position: fixed; */
-/* 	z-index: 1; */
-/* 	padding-top: 1em; */
 	padding-bottom: 1em;
-	/*font-size: 0.75em;*/
-/* 	border: 8px dotted red; */
 }
 .less-round-box {
 	border-radius: 50%;
@@ -153,11 +132,7 @@ li {
 	filter: brightness(200%);
 }
 .social {
-/* 	width: 50%; */
-/* 	height: 50%; */
 	margin-top: 1vw;
-/* 	float: left; */
-/* 	border: 5px solid red; */
 }
 
 .created {
@@ -167,5 +142,4 @@ li {
 	font-size: 1.5em;
 	color: black;
 	padding-top: 1.3em;
-/* 	border: 5px green dotted; */
 }
