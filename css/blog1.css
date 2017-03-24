@@ -1,0 +1,112 @@
+body {
+	background-color: black;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #AAAAAA 10%, rgba(255, 0, 255, 0) 100%, #505050 10%);
+	color: white;
+}
+
+a {
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.homes{
+	padding: 0.2em 1.5em 0.1em 0em;
+	top:0%;
+}
+
+#home {
+}
+
+#home:hover {
+	filter: invert();
+}
+.header {
+	background-color: #CC1100;
+	text-align: center;
+	top: 0%;
+	max-height: 70%;
+}
+
+.title {
+	background-color: ;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: 'Black Ops One', "sans-serif";
+	font-size: 3em;
+	color: white;
+}
+.sectionTitle{
+	clear: both;
+	padding-top: 1em;
+}
+
+code {
+	background-color: inherit;
+}
+
+.daCode {
+	background-color: white;
+	color: black;
+}
+
+.assignment {
+	clear: both;
+	padding-top: 2em;
+}
+
+.pseudo {
+	clear: both;
+}
+
+.test {
+	clear: both;
+}
+
+.tests {
+	color: black;
+	clear: both;
+}
+
+.btn {
+	clear: both;
+	margin-bottom: 1.4em;
+}
+
+#output {
+	color: black;
+}
+
+.warning{
+	clear: both;
+	background-color: white;
+	min-height: 1em;
+	border: 1em dashed red;
+}
+.code {
+	clear: both;
+}
+
+.footsy {
+	clear: both;
+	background-color: ;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+/* 	border: 8px dotted red; */
+}
+.social:hover {
+	filter: brightness(200%);
+}
+.social {
+	margin-top: 1vw;
+/* 	border: 5px solid red; */
+}
+
+.created {
+	float: center;
+	clear: both;
+	margin-top: ;
+	padding-top: 1.5vw;
+/* 	border: 5px green dotted; */
+}
