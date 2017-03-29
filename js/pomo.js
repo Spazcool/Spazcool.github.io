@@ -49,7 +49,8 @@ $(document).ready(function() {
         //POST HUMAN READABLE TO THE SCREEN
         document.getElementById("screen").innerHTML = bob;
         //BREAK TIME
-        if (him < 0) {
+        //CHANGED FROM 0 TO 1
+        if (him < 1) {
             // console.log("BREAK START- arguments: " + arguments[0] + " || him: " + him + " || workLength: " + workLength + " || staticWorkLength: " + staticWorkLength + " || breakLength: " + breakLength);
             clearInterval(objInterval);
             // console.log("breakCount: " + breakCount);
