@@ -16,7 +16,11 @@ $(document).ready(function() {
         tester = 30,
         pauseCount = 0,
         breakCount = 0;
-
+    
+    function chime() {
+		document.getElementById('chime').play();
+	}; 
+    
     //CLOCK & HUMAN READY
     function millisToMinutesAndSeconds(secs) {
         var minutes = 0;
@@ -51,6 +55,7 @@ $(document).ready(function() {
         //BREAK TIME
         //CHANGED FROM 0 TO 1
         if (him < 1) {
+            chime();
             // console.log("BREAK START- arguments: " + arguments[0] + " || him: " + him + " || workLength: " + workLength + " || staticWorkLength: " + staticWorkLength + " || breakLength: " + breakLength);
             clearInterval(objInterval);
             // console.log("breakCount: " + breakCount);
