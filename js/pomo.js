@@ -35,7 +35,6 @@ $(document).ready(function() {
     };
 
     function startcountdown(cat) {
-        // console.log("startcountdown START- arguments: " + arguments[0] + " || cat: " + cat + " || workLength: " + workLength + " || staticWorkLength: " + staticWorkLength + " || breakLength: " + breakLength);
         clearInterval(objInterval);
         objInterval = setInterval(function() {
             showcountdown(cat)
@@ -52,13 +51,11 @@ $(document).ready(function() {
         bob = millisToMinutesAndSeconds(him);
         //POST HUMAN READABLE TO THE SCREEN
         document.getElementById("screen").innerHTML = bob;
+	document.getElementById("kitten").innerHTML = bob + " Pomodoro";
         //BREAK TIME
-        //CHANGED FROM 0 TO 1
         if (him < 1) {
             chime();
-            // console.log("BREAK START- arguments: " + arguments[0] + " || him: " + him + " || workLength: " + workLength + " || staticWorkLength: " + staticWorkLength + " || breakLength: " + breakLength);
             clearInterval(objInterval);
-            // console.log("breakCount: " + breakCount);
             if (breakCount % 2 === 0) {
                 workLength = staticWorkLength;
                 startcountdown(workLength);
@@ -67,7 +64,6 @@ $(document).ready(function() {
                 startcountdown(breakLength);
             }
         } else {
-            //console.log("look at him: " + him + " || tester: " + tester + " || workLength: " + workLength);
             him--;
             workLength--;
         }
@@ -75,7 +71,6 @@ $(document).ready(function() {
 
     //PAUSE LOGIC
     function pushPend(wo) {
-        // console.log("pausing");
         $("#screen").html(":");
         if (wo === "pause") {
             if (breakCount % 2 === 0) {
@@ -87,7 +82,6 @@ $(document).ready(function() {
             $("#spinP").html("");
             //UNPAUSE
             if (pauseCount % 2 === 0) {
-                // console.log("unpause it - breakLength: " + breakLength);
                 $("#spinP").html("PAUSE");
                 if (breakCount % 2 === 0) {
                     breakLength = pausedWorkLength;
@@ -100,7 +94,6 @@ $(document).ready(function() {
                 }
                 //PAUSE
             } else {
-                // console.log("PAUSE it - breakLength: " + breakLength);
                 $("#spinP").html("PAUSED");
                 clearInterval(objInterval);
             }
