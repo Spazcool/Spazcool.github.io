@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<div class="assignment col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<center>
+			<h4>Assignment: Create a function that checks if <i>firstName</i> is an actual contact's first name and the given property <i>prop</i> is a property of that contact, returning <i>value</i> of that property if both are true. Additionally, if <i>firstName</i> does not correspond to any contacts then return "No such contact" and if <i>prop</i> does not correspond to any valid properties then return "No such property".
+		<br><br/>
+		<p><i>Or, in plain English, is that person in our list and, if so, do they like these things? Either way, give them the corresponding messages above.</i></p>
+				</h4>
+		</center>
+	</div>
+
+	<div class="pseudo col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="sectionTitle col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<h4><b>The breakdown and pseudo-code:</b></h4></div>
+		<div class="pseudo col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<div class="pseudo col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+				<p>
+					Loop through the contacts, checking <i>firstName</i> against the contacts listed.
+					<ul>
+						<li>If there is not a match, return "No such contact".</li>
+						<li>Else, proceed on to check on the <i>prop</i>.</li>
+					</ul>
+				</p>
+
+				<p>
+					Loop through the each contacts object checking if the <i>prop</i> is there.
+					<ul>
+						<li>If there is a match, return value of the matched <i>prop</i>.</li>
+						<li>Else, return "No such property".</li>
+					</ul>
+				</p>
+				
+			</div>
+			<br>
+			<div class="daCode well col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<code>
+		&emsp;if(firstName IS-NOT-IN contacts){ <br>
+		&emsp;&emsp;return "No such contact" <br>
+  		&emsp;}else{ <br>
+		&emsp;&emsp;for(each "contact" IN contacts){ <br>
+		&emsp;&emsp;&emsp;if(prop IS-IN "contact"){ <br>
+		&emsp;&emsp;&emsp;&emsp;return value of prop<br>
+		&emsp;&emsp;&emsp;}else{ <br>
+		&emsp;&emsp;&emsp;&emsp;return "No such property"<br>
+		&emsp;&emsp;&emsp;}<br>
+		&emsp;&emsp;}<br>
+		&emsp;}<br>
+		</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="test col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="sectionTitle col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<h4><b>The known tests:</b></h4>
+		</div>
+		<div class="tests col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<center>
+				<h4><b>INPUT</b></h4>
+			</center>
+			<div class="well col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<ol>
+					<li>
+						<b>lookUpProfile("Kristian", "lastName")</b> should return "Vos".
+					</li>
+					<li>
+						<b>lookUpProfile("Sherlock", "likes")</b> should return ["Intriguing Cases", "Violin"].
+
+					</li>
+					<li>
+						<b>lookUpProfile("Harry", "likes")</b> should return an array.
+	</li>
+					<li>
+						<b>lookUpProfile("Bob", "number")</b> should return "No such contact".
+</li>
+					<li>
+						<b>lookUpProfile("Akira", "address")</b> should return "No such property".
+					</li>
+					
+				</ol>
+			</div>
+
+			<button class="btn btn-primary col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5" type="button" id="refresh">Test</button>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<center>
+					<h4><b>OUTPUT</h4></b>
+				</center>
+			</div>
+			<div class="well col-xs-12 col-sm-12 col-md-12 col-lg-12" id="output">
+			</div>
+		</div>
+	</div>
+	<div class="warning col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+
+	<div class="code col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="sectionTitle col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<h4><b>And here's the code:</h4></b>
+		</div>
+		<div class="code daCode well col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+			<code>
+		&emsp;function isHeSheThere(firstName) { <br>
+		&emsp;&emsp;<span style="color:gray">//SIMPLE LIST OF CONTACTS, AVOIDING MUCKING ABOUT WITH THE OBJECT</span><br>
+		&emsp;&emsp;var compArr = [];<br>
+		&emsp;&emsp;for (var x = 0; x &#060; contacts.length; x++) { <br>
+		&emsp;&emsp;&emsp;compArr.push(contacts[x].firstName);<br>
+		&emsp;&emsp;}<br>
+		&emsp;&emsp;<span style="color:gray">//CHECK firstName AGAINST SIMPLE LIST</span><br>
+		&emsp;&emsp;if (compArr.includes(firstName)) {<br>
+		&emsp;&emsp;&emsp;return true;<br>
+		&emsp;&emsp;} else {<br>
+		&emsp;&emsp;&emsp;return false;<br>
+		&emsp;&emsp;}<br>
+		&emsp;}<br>
+
+		&emsp;function lookUpProfile(firstName, prop) {<br>
+		&emsp;&emsp;if (isHeSheThere(firstName) === false) {<br>
+		&emsp;&emsp;&emsp;return "No such contact";<br>
+		&emsp;&emsp;} else {<br>
+		&emsp;&emsp;&emsp;for (var i = 0; i &#060; contacts.length; i++) {<br>
+		&emsp;&emsp;&emsp;&emsp;<span style="color:gray">//MATCH THE NAME TO ONE IN THE contacts</span><br>
+		&emsp;&emsp;&emsp;&emsp;if (firstName === contacts[i].firstName) {<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;if (contacts[i].hasOwnProperty(prop) === true) {<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;switch (prop) {<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;case "lastName":<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return contacts[i].lastName;<br>
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;case "likes":<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return contacts[i].likes;<br>
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;case "number":<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return contacts[i].number;<br>
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;break;<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;} else {<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return "No such property";<br>
+		&emsp;&emsp;&emsp;&emsp;&emsp;}<br>
+		&emsp;&emsp;&emsp;&emsp;}<br>
+		&emsp;&emsp;&emsp;}<br>
+		&emsp;&emsp;}<br>
+		&emsp;}<br>
+		</code>
+		</div>
+		
+<!-- 		<div class="thoughts col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+		<h4><b>Thoughts:</h4></b>
+			<p> Thoughts be hard.</p>
+		
+		</div> -->
+	</div>
