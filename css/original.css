@@ -1,8 +1,6 @@
-<!DOCTYPE HTML PUBLIC>
 /*PHONES*/
 @media screen and (min-device-width: 600px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
 	.about-me {
-/* 	height: 200px; */
 	background-image: url("/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -17,31 +15,17 @@ body {
 	background-color: black;
 }
 
-
-/* @-moz-document url-prefix() { 
-  body {
-     color:lime;
-  }
-} */
-
-
 /* MENU */
 
 .blog{
 	position: absolute;
 	z-index: 1;
-/* 	border: 5px dotted red;	 */
 }
-
 #blog{
 	float: right;
 	margin-top: 2em;
-/* 	margin-left: 20%; */
-/* 	padding-left:10%; */
-	
 }
 #blog:hover{
-/* 	filter: invert(); */
 	filter: brightness(20%);
 }
 
@@ -63,11 +47,7 @@ body {
 	filter: brightness(30%);
 }
 
-
 /*MENU ICON AND THE THREE SECTION BUTTONS (SUB NAVS)  */
-
-.nav-button {}
-
 .nav-button:hover {
 	cursor: pointer;
 }
@@ -93,9 +73,7 @@ body {
 	border-color: #FF00CC;
 }
 
-
 /*INDIVIDUAL LINKS*/
-
 .sub-sub-nav-button {
 	text-align: left;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -113,19 +91,13 @@ body {
 	font-size: 1.11em;
 }
 
-.about-button {}
-
 .about-button:hover {
 	background-color: rgba(110, 13, 208, 0.6);
 }
 
-.work-button {}
-
 .work-button:hover {
 	background-color: rgba(204, 0, 255, 0.6);
 }
-
-.find-button {}
 
 .find-button:hover {
 	background-color: rgba(255, 0, 204, 0.6);
@@ -140,16 +112,12 @@ ul {
 	padding: 0;
 }
 
-
 /* TITLE PAGE*/
-
 .title-page {
 	height: 100vh;
 	background-image: url("/imgs/portfolio/title/titleback.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-/* 	color: #FF00FF;
-	font-weight: bold; */
 }
 
 .title {
@@ -164,21 +132,13 @@ ul {
 	position: fixed;
 }
 
-#lightning1 {
-	/*z-index: -6;*/
-}
-
 #lightning2 {
 	left: 7%;
 }
 
 
 /*ABOUT ME*/
-
-#about-link {}
-
 .about-me {
-/* 	height: 100vh; */
 	background-image: url("/imgs/portfolio/about_by_spazcool-daidx3w.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -200,30 +160,32 @@ ol {
 	list-style: none;
 }
 .tools{
-padding-top:0.5em;
+	padding-top:0.5em;
 	padding-bottom: 0.5em;
 	margin-top:0.5em;
 }
-#done {}
 
 .badge-box {
 	margin-top: 1em;
 }
-
-#fccCV {}
-
-#ccCV {}
 
 .badges:hover {
 	box-shadow: 0 0 20px blue;
 	filter: brightness(200%);
 }
 
+.workImg{
+	border: 2px solid white;
+}
+
+.workImg:hover{
+	box-shadow: 0 0 20px blue;
+	filter: brightness(200%);
+}
+
 /*CONTACT ME*/
-#contact-link {}
 .sfooter {
 	height: 50vh;
-/* 	padding: 2rem 0rem 2rem 0rem; */
 	background-image: url("/imgs/portfolio/footer/freevector_80s_background_by_spazcool-daiduml.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -232,21 +194,12 @@ padding-top:0.5em;
 .f1_container {
 	min-height: 16em;
 	padding: 1em;
-/* 	position: relative; */	
-/* 	width: 33%; */	
-	/*z-index: 1;*/
 }
-/* .f1_container {
-  perspective: 10;
-} */
 
 .f1_card {
 	transform-style: preserve-3d;
 	transition: all 1.0s linear;
-	min-height: 16em;
-/* 	width: 100%; */
-/* 	height: 50%; */	
-	
+	min-height: 16em;	
 }
 
 .f1_container:hover .f1_card {
@@ -256,8 +209,6 @@ padding-top:0.5em;
 .face {
 	position: fixed;
 	backface-visibility: hidden;
-/* 	width: 100%;
-	height: 100%; */
 }
 
 .face.back {
@@ -281,7 +232,6 @@ padding-top:0.5em;
 }
 
 .created {
-/* 	bottom: 0%; */
 	clear: both;
 	margin-top: 8em;
 	padding-top: 16em;
@@ -314,7 +264,6 @@ a:hover{
 .social1: hover {
  	filter: brightness(20%); 
 }
-
 
 .ie .sfooter {
   display: none;
@@ -349,4 +298,3 @@ a:hover{
 .chrome  .sfooter{
 	display: inline;
 }
-
