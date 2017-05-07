@@ -6,6 +6,7 @@ $(document).ready(function() {
         equalled = 0,
         nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+    //CHANGE OPERATOR SYMBOLS FOR EASE OF READING
     function robotToHuman() {
         var replaced = "";
         for (var y = 0; y < toScreen.length; y++) {
@@ -18,6 +19,7 @@ $(document).ready(function() {
         return replaced;
     }
 
+    //PUSH THE INPUTS TO SCREEN
     function updateScreen() {
         toScreen = inputs.join("");
         if (toScreen.includes("*") || toScreen.includes("/")) {
@@ -26,7 +28,8 @@ $(document).ready(function() {
             $("#screen").html(toScreen);
         }
     }
-
+    
+    //CALCULATE THE EXPRESSION AND KEEP IT SHORT
     function equalizer() {
         var ans = eval(toScreen).toFixed(2);
         equalled = 1;
@@ -39,7 +42,8 @@ $(document).ready(function() {
             $("#screen").html(ans); 
         }
     }
-
+    
+    //ALLOW ONLY LEGAL OPERATIONS
     function filter(input) {
         // STOPS 2 DOTS IN A ROW
         if (inputs[inputs.length - 1] === "." && input === ".") {
