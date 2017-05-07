@@ -1,12 +1,4 @@
 $(document).ready(function() {
-    $("#tooltip2").slider({
-        orientation: "vertical",
-        range: "min",
-        min: 1,
-        max: 60,
-        value: 30,
-    });
-
     var breakLength = 0,
         staticWorkLength = 0,
         workLength = 0,
@@ -16,7 +8,15 @@ $(document).ready(function() {
         tester = 30,
         pauseCount = 0,
         breakCount = 0;
-    
+	
+    $("#tooltip2").slider({
+        orientation: "vertical",
+        range: "min",
+        min: 1,
+        max: 60,
+        value: 30,
+    });
+
     function chime() {
 		document.getElementById('chime').play();
 	}; 
@@ -34,6 +34,7 @@ $(document).ready(function() {
         return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
     };
 
+    //RUN THIS EVERY SECOND
     function startcountdown(cat) {
         clearInterval(objInterval);
         objInterval = setInterval(function() {
