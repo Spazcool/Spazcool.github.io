@@ -100,5 +100,4 @@ $(document).ready(function() {
 		}], "single");
 		timer= 0;
 	})
-
 });
