@@ -24,18 +24,18 @@ $(document).ready(function() {
     $(".banner").hide();
     document.getElementById(character).style.cssText = "background-color: #FC1501; color: #5C5C5C";
 
-    //STYLING MOSTLY
+    //STYLE BUTTON FOR THE CHOICE
     function characterChoice(choice) {
         character = choice;
         document.getElementById("X").style.cssText = "background-color: #800000; color: black;";
         document.getElementById("O").style.cssText = "background-color: #800000; color: black;";
         document.getElementById(choice).style.cssText = "background-color: #FC1501; color: #5C5C5C";
-    };
+    }
 
     //RANDOMLY SELECT A NUM IN A RANGE
     function randoCell(min, max) {
         return Math.floor(Math.random() * (max - min)) + min;
-    };
+    }
 
     function playedOrAvailable() {
         playedCells = [];
@@ -50,7 +50,7 @@ $(document).ready(function() {
                     oPlayedCells.push(p);
                 }
                 playedCells.push(p);
-                //loop through playedCells and subract the same nums from availableCells
+                //LOOP THROUGH playedCells AND - THE nums FROM availableCells
                 for (var a = 0; a < playedCells.length; a++) {
                     for (var d = 0; d < availableCells.length; d++) {
                         if (playedCells[a] === availableCells[d]) {
@@ -58,59 +58,38 @@ $(document).ready(function() {
                         }
                     }
                 }
-                // console.log(p, ": ", document.getElementById(p).innerHTML, " || playedCells: ", playedCells, " || availableCells: ", availableCells);
-                console.log("playedCells: ", playedCells, " || xPlayedCells: ", xPlayedCells, " || oPlayedCells: ", oPlayedCells);
+                // console.log("playedCells: ", playedCells, " || xPlayedCells: ", xPlayedCells, " || oPlayedCells: ", oPlayedCells);
             }
         }
         return availableCells;
-    };
+    }
 
     function aiMoves(XorO) {
-        //MY LOGIC IS NOT FOLLOWING REALITY HERE, HOW DONE DO IT?
-        //IF USER HAS 2/3 OF A SEQUENCE TAKE THE 1/3
-        //if xPlayedCells has 2/3 of a winningSequences take the
-        // for (var g = 0; g < xPlayedCells.length; g++) {
-        //     for (var z = 0; z < winningSequences.length; z++) {
-        //         if (xPlayedCells[g] === winningSequences[z][g]) {
-        //             console.log("1 match");
-        //             if (xPlayedCells[g + 1] === winningSequences[z + 1][g + 1]) {
-        //                 console.log("xPlayedCells[g]: ", xPlayedCells[g], " || winningSequences[z][g]: ", winningSequences[z][g], " || xPlayedCells[g+1]: ", xPlayedCells[g + 1], " || winningSequences[z+1][g+1]: ", winningSequences[z + 1][g + 1]);
-        //             }
-        //         }
-        //     }
-        // }
-
         //GRAB THE CENTER IF ITS FREE
         if (document.getElementById("5").innerHTML === "") {
-            console.log("AI TAKE 5");
             document.getElementById("5").innerHTML = XorO;
             //IF CENTER IS NOT FREE
         } else if (document.getElementById("5").innerHTML !== "") {
-            console.log("AI 5 TAKEN");
-            //IF l IN PRIMARY SEQUENCE IS ALSO IN playedCells POP IT OUT OF THE PRIMARY SEQUENCE THEN RANDOMLY SELECT FROM WHAT IS LEFT
+            //IF l IN aiPrimarySequence IS ALSO IN playedCells POP IT OUT OF THE PRIMARY SEQUENCE THEN RANDOMLY SELECT FROM WHAT IS LEFT
             for (var l = 0; l < aiPrimarySequence.length; l++) {
                 for (var w = 0; w < playedCells.length; w++) {
                     if (aiPrimarySequence[l] === playedCells[w]) {
-                        // console.log(aiPrimarySequence[l], " || ", playedCells[w]);
                         aiPrimarySequence.splice(l, 1);
-                        // console.log("aiPrimarySequence: ", aiPrimarySequence);
                     }
                 }
             }
-            //IF THERE REMAIN CELLS IN THE aiPrimarySequence GRAB EM
+            //IF THERE REMAIN CELLS IN THE aiPrimarySequence GRAB EM, TAKE THE CORNERS
             if (aiPrimarySequence.length > 0) {
-                console.log("AI TAKE CORNER");
                 document.getElementById(aiPrimarySequence[randoCell(0, aiPrimarySequence.length)]).innerHTML = XorO;
                 //ELSE GRAB AT RANDOM
             } else {
-                console.log("AI TAKE RANDOM");
                 document.getElementById(availableCells[randoCell(0, availableCells.length)]).innerHTML = XorO;
             }
         }
         didWhoWin(XorO);
-        console.log("END: AI");
-    };
+    }
 
+//AI IS PLAYING AS X OR O
     function aiCharater() {
         playedOrAvailable();
         if (character === "X") {
@@ -118,13 +97,14 @@ $(document).ready(function() {
         } else {
             aiMoves("X");
         }
-    };
+    }
 
+//CHECK IF THERES A WINNING STREAK
     function didWhoWin(who) {
         function bannerAppend() {
             $("#banner").html(who + " won!");
             $(".banner").slideToggle(400);
-        };
+        }
         for (var s = 0; s < winningSequences.length; s++) {
             if (document.getElementById(winningSequences[s][0]).innerHTML === who && document.getElementById(winningSequences[s][1]).innerHTML === who && document.getElementById(winningSequences[s][2]).innerHTML === who) {
                 bannerAppend();
@@ -133,25 +113,22 @@ $(document).ready(function() {
         }
         gameOverCheck();
         return false;
-    };
+    }
 
     //IF THERES A DRAW
     function gameOverCheck(cat) {
         counter += 1;
-        // console.log("counter: " + counter);
-        //IF ALL ARE CHECKED
         if (counter >= 9) {
-            console.log("DRAW GAME OVER");
             $("#banner").html("Draw!");
             $(".banner").slideToggle(400);
             return true;
         } else {
             return false;
         }
-    };
+    }
 
+//RESET FOR A NEW GAME
     function reset() {
-        console.log("NEW GAME");
         $(".cell").html("");
         document.getElementById("X").style.cssText = "background-color: #800000; color: black;";
         document.getElementById("O").style.cssText = "background-color: #800000; color: black;";
@@ -163,14 +140,13 @@ $(document).ready(function() {
         aiPrimarySequence = [1, 3, 7, 9];
         counter = 0;
         $(".banner").slideToggle(400);
-    };
+    }
 
     //STARTS HERE WITH THE INPUTS
+    
     $(".cell").click(function() {
-        //MAKE THIS NOT WORK WHEN THE BANNER IS SHOWING
         //CHECK IF THE CELL IS AVAILABLE
         if ($(this).html() !== "") {
-            // console.log("seats taken");
         } else {
             $(this).html(character);
             if (didWhoWin(character) === false) {
