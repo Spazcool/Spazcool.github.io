@@ -1,3 +1,4 @@
+//ICON FADE IN & SLIDE TOGGLE
 function menu() {
 	$(".menu").hide();
 	$(".blog").hide();	
@@ -9,6 +10,7 @@ function menu() {
 	});
 }
 
+//LIGHTNING ANIMATION
 function lightning() {
 	$(".lightning").hide();
 	$(".title").on("click", function() {
