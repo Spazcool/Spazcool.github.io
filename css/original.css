@@ -176,7 +176,10 @@ ol {
 }
 
 .workImg{
-	border: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 4px solid white;
+    border-left: 2px solid white;
+    border-right: 4px solid white;
 }
 
 .workImg:hover{
