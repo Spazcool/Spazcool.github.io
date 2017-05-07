@@ -18,6 +18,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* [freeCodeCampt](https://www.freecodecamp.com/)
+* [freeCodeCamp](https://www.freecodecamp.com/)
 * [CSS Browser Selector](http://rafael.adm.br/css_browser_selector/) - used for my footer, it's a God send
 * [W3 Schools Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
