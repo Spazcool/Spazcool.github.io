@@ -1,6 +1,8 @@
 //SLIDESHOW ANIMATION FOR WORK SECTION
 var slideIndex = 0;
+if (document.getElementsByClassName("mySlides") !== undefined){
 showSlides();
+}
 
 function showSlides() {
     var i;
