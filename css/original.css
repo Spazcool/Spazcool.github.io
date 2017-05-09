@@ -178,7 +178,9 @@ margin-bottom: 1em;
 	box-shadow: 0 0 20px blue;
 	filter: brightness(200%);
 }
-
+#morePadding{
+	padding-bottom: 1em;
+}
 #workSection{
 	margin-top:1em;
 }
