@@ -178,6 +178,9 @@ margin-bottom: 1em;
 	filter: brightness(200%);
 }
 
+#workSection{
+	margin-top:1em;
+}
 .workImg{
     border: 2px solid white;
 }
