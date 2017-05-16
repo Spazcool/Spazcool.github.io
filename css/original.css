@@ -273,6 +273,7 @@ a:hover{
 }
 .social1{
 	margin: 1em 0em 1em 0em;
+	min-width: 50px;
 }
 .social1: hover {
  	filter: brightness(20%); 
