@@ -7,5 +7,5 @@ permalink: /pomo/
 <img src="/imgs/underConstruction3.png" width="30%" height="auto" />
 <br>
 
-Currently under construction. You can check out the progress at: <a href="http://s.codepen.io/SpazCool/debug/mRKMQa/PBMNWxKDJDgr">Pomodoro Timer</a>
+Hmm, something didn't work quite right. You can check out the old version at: <a href="http://s.codepen.io/SpazCool/full/mRKMQa/PBMNWxKDJDgr">Pomodoro Timer</a>
 </center>
