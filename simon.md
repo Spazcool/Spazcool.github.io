@@ -7,5 +7,5 @@ permalink: /simon/
 <img src="/imgs/underConstruction3.png" width="30%" height="auto" />
 <br>
 
-Currently under construction. You can check out the progress at: <a href="https://codepen.io/SpazCool/full/VbZNrX/">Hexy Simon</a>
+Hmm, something didn't work quite right. You can check out the old version at: <a href="https://codepen.io/SpazCool/full/VbZNrX/">Hexy Simon</a>
 </center>
