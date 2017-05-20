@@ -4,8 +4,8 @@ title: Simon
 permalink: /simon/
 ---
 <center>
-<img src="/imgs/twitch/dead_by_spazcool-dankd6m.png" width="30%" height="auto"/>
+<img src="/imgs/underConstruction3.png" width="30%" height="auto" />
 <br>
-Sorry about that. I haven't had a chance to add the final touches to this project. Use this to head back <a href="http://www.spazcool.com/">home</a>.
-</center>
 
+Currently under construction. You can check out the progress at: <a href="https://codepen.io/SpazCool/full/VbZNrX/">Hexy Simon</a>
+</center>
