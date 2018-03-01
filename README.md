@@ -1,4 +1,4 @@
-# Welcome to Spazcool's Portfolio Page
+# Welcome to Spazcool's [Portfolio Page](http://www.spazcool.com/)
 
 This is where I am hosting the best work I've done thus far during these past 18 months of self-taught lunch breaks, nights and weekends. I know, there's a lot of pink but, I'm a child of the eigthies so you'll have to be strong. If you like what you see or just otherwise want to get in touch, don't hesitate. 
 
