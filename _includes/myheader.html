@@ -1,8 +1,40 @@
 <!DOCTYPE html>
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+    <p>Hello World!</p>
+  </div>
+</div>
 	<div class="header col-xs-8 col-sm-6 col-md-4 col-lg-4">
-		<div class="menu col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="nav-button"><img src="/imgs/portfolio/header/menu_sm_by_spazcool-daj9pl4.png" width="20%" height="auto" id="menuIcon">
-			</div>
+<!-- 		<div class="menu col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
+		<div class="menu dropdown col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<!-- 		<div class="nav-button"><img src="/imgs/portfolio/header/menu_sm_by_spazcool-daj9pl4.png" width="20%" height="auto" id="menuIcon"></div> -->
+		<span class="nav-button"><img src="/imgs/portfolio/header/menu_sm_by_spazcool-daj9pl4.png" width="20%" height="auto" id="menuIcon"></span>
+ <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
 			<ul class='links'>
 				<div class='nav-button sub-nav-button' id="about">About Me</div>
 				<ul class='links'>
@@ -36,5 +68,6 @@
 					<li><a class="btn find-button sub-sub-nav-button" href="http://codepen.io/SpazCool/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>&emsp; CodePen</a></li>
 					<li><a class="btn find-button sub-sub-nav-button" href="https://scratch.mit.edu/users/SpazCool/" target="_blank">&#128062; &emsp; Scratch</a></li>
 				</ul>
-		</div>
+				</div>
+				</div>
 	</div>
