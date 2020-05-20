@@ -1,0 +1,25 @@
+Home-
+  HEAD:
+  HEADER:
+    *list divs are too small on smaller screens, relative sizing is off
+    *full screen pop up as a solution to the menu on smaller screen
+  ABOUT ME:
+    *make fcc and cc links rotate on hover, revealing my current stats with those sites
+    *include one for hackerrank?
+  FOOTER:
+    *larger links for mobile in alt footer
+    
+Calculator-
+  JS: 
+    *I got a lot of work to do there
+
+Pomodoro-
+  JS: 
+    *I got a lot of work to do there
+        
+Blog-
+  HEAD:
+  HEADER:
+  BODY:
+    *back-img is only loading as i want it after i click a button, no good
+  FOOTER:
