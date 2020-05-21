@@ -1,0 +1,105 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+/*WEATHER INFO*/
+.iconBlock {
+    position: absolute;
+    width: 100%;
+    margin-top: 18%;
+}
+
+.tempBlock {
+    width: 100%;
+}
+
+/* spotlight page only  */
+.spotlight{
+    margin: 75% auto; 
+}
+
+@media only screen and (max-width: 600px) {
+    .spotlight{
+        margin: auto; 
+    }
+}
+
+.tempBlock > h3, h5 {
+    text-align: center;
+}
+
+.tempBlock > ul >  li {
+    font-size: 1.5em;
+}
+
+.timeBlock {
+    padding: 0;
+    position: relative;
+}
+
+.previous {
+    display: block;
+    padding-bottom: 200px;
+}
+
+.previous::hover{
+    cursor: pointer;
+}
+
+#clear::hover{
+    cursor: pointer;
+}
+
+#search{
+    width: 100%;
+}
+
+#uvIndex{
+    text-align: center; 
+    display: inline-block; 
+    width: 2em;
+}
+
+/* MDL stuff */
+.layout-transparent {
+    background: rgb(27, 27, 27) center / cover;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+
+/* FIVE DAY VIEW, CENTER THE CARDS */
+.center-items {
+    justify-content: center;
+}
+
+.card-event > .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-event > .mdl-card__title {
+    align-items: flex-start;
+}
+
+.card-event > .mdl-card__title > h4 {
+    margin-top: 0;
+}
+
+.card-event > .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+
+.card-event > .mdl-card__actions > .material-icons {
+    padding-right: 10px;
+}
+
+.card-event > .mdl-card__title,
+.card-event > .mdl-card__actions,
+.card-event > .mdl-card__actions > .mdl-button {
+    color: #fff;
+}

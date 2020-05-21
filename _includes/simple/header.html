@@ -1,62 +1,83 @@
 <!DOCTYPE html>
-	<style>
-		.dropdown {
-		    position: relative;
-		    display: inline-block;
-		}
+	<div class="layout-transparent mdl-layout mdl-js-layout">
 
-		.dropdown-content {
-		    display: none;
-		    position: absolute;
-		    min-width: 160px;
-		    padding: 12px 16px;
-		    z-index: 1;
-		}
+		<header class="mdl-layout__header mdl-layout__header--transparent">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title">Weather Spotlight</span>
+				<div class="mdl-layout-spacer"></div>
+				<nav class="mdl-navigation">
+					<span class="mdl-navigation__link" id='date'></span> 
+					<span class="mdl-navigation__link" id='location'></span>
+				</nav>
+			</div>
+		</header>
 
-		.dropdown:hover .dropdown-content {
-		    display: block;
-		}
-	</style>
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title">Dashboard</span>
+			<nav class="mdl-navigation sidePanel">
+				<a class="mdl-navigation__link mdl-menu__item--full-bleed-divider" href="index.html">Home</a>
+				<a class="mdl-navigation__link mdl-menu__item--full-bleed-divider" href="about.html">About Me</a>
+				<a class="mdl-navigation__link mdl-menu__item--full-bleed-divider" href="personal.html">Personal Projects</a>
+				<a class="mdl-navigation__link" href="http://covidtracking-us.com/" target="_blank">Covid 19 Tracker</a>
 
-	<div class="header col-xs-8 col-sm-6 col-md-4 col-lg-4">
-		<div class="menu dropdown col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<span class="nav-button"><img src="/imgs/portfolio/header/menu_sm_by_spazcool-daj9pl4.png" width="20%" height="auto" id="menuIcon"></span>
-		<div class="dropdown-content">
-			<ul class='links'>
-				<div class='nav-button sub-nav-button' id="about">About Me</div>
+				<a class="mdl-navigation__link" href="/password-generator/" target="_blank">Password Generator</a>
+				<a class="mdl-navigation__link" href="/weather-dashboard/" target="_blank">Weather Dashboard</a>
+				<a class="mdl-navigation__link" href="/nasa-quiz/" target="_blank">NASA Quiz</a>
+				<a class="mdl-navigation__link" href="/day-planner/" target="_blank">Day Planner</a>
+
+				<a class="mdl-navigation__link" href="/calculator/" target="_blank">JS Calculator</a>
+				<a class="mdl-navigation__link" href="/pomodoro/" target="_blank">Pomodoro Timer</a>
+				<a class="mdl-navigation__link" href="/ticTacToe/" target="_blank">Tic Tac Toe</a>
+				<a class="mdl-navigation__link" href="/simonGame/" target="_blank">Simon</a>
+				<a class="mdl-navigation__link" href="http://www.spazcool.com/markdown/" target="_blank">Markdown Previewer</a>
+				<a class="mdl-navigation__link" href="http://www.spazcool.com/leaderboard/" target="_blank">fCC Leaderboard</a>
+				<a class="mdl-navigation__link mdl-menu__item--full-bleed-divider" href="professional.html">Freelance</a>
+				<a class="mdl-navigation__link" href="http://www.madmonnaie.fr" target="_blank">Madmonnaie.fr</a>
+				<a class="mdl-navigation__link" href="https://url.coderbunker.com/search" target="_blank">CoderBunker Inventory</a>
+
+				<!-- <form action="#" class="mdl-navigation__link" >
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text" id="cityToSearch" placeholder="boston, ma">
+						<label class="mdl-textfield__label" for="cityToSearch">Input</label>               
+					</div>
+					<button id="search" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+						<i class="material-icons">search</i>
+					</button>
+				</form> -->
+			</nav>
+		</div>
+
+		<!-- <div class="header col-xs-8 col-sm-6 col-md-4 col-lg-4">
+			<div class="menu dropdown col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<span class="nav-button"><img src="/imgs/portfolio/header/menu_sm_by_spazcool-daj9pl4.png" width="20%" height="auto" id="menuIcon"></span>
+			<div class="dropdown-content">
 				<ul class='links'>
-					<li><a class="btn about-button sub-sub-nav-button" href="#about-link" role="button">About Me</a></li>
-					<li><a class="btn about-button sub-sub-nav-button" href="#created" role="button">Contact Me</a></li>
-					<li><a class="btn about-button sub-sub-nav-button" href="#created" role="button">anohter Me</a></li>
-
-				</ul>
-
-				<div class='nav-button sub-nav-button' id="work">My Work</div>
-				<ul class='links'>
-					<li><a class="btn work-button sub-sub-nav-button" id="madmoney" href="http://www.madmonnaie.fr" target="_blank" role="button">Madmonnaie.fr</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="calc" href="/calc/" target="_blank" role="button">JS Calculator</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="pomo" href="/pomo/" target="_blank" role="button">Pomodoro Timer</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="tictac" href="/tictac/" target="_blank" role="button">Tic Tac Toe</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="simon" href="/simon/" target="_blank" role="button">Simon</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="twitch" href="/twitch/" target="_blank" role="button">Twitch.tv Guide</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="mark" href="http://www.spazcool.com/markdown/" target="_blank" role="button">Markdown Previewer</a></li>
-					<li><a class="btn work-button sub-sub-nav-button" id="lead" href="http://www.spazcool.com/leaderboard/" target="_blank" role="button">fCC Leaderboard</a></li>
-					<!--<li><a class="btn work-button sub-sub-nav-button" id="weather" href="/weather/" target="_blank" role="button">Weather App</a></li> -->
-					<!-- <li><a class="btn work-button sub-sub-nav-button" id="wiki" href="/wiki/" target="_blank" role="button">Wikipedia Viewer</a></li> -->
-					<!--<li><a class="btn work-button sub-sub-nav-button" id="tyson" href="/tyson/" target="_blank" role="button">Dr. Tyson Tribute</a></li> -->
-					<!--<li><a class="btn work-button sub-sub-nav-button" id="solar" href="/solar/" target="_blank" role="button">Second Solar System</a></li> -->
-					<!--<li><a class="btn work-button sub-sub-nav-button" id="quote" href="quote/" target="_blank" role="button">Random Quoter</a></li> -->
-					<!--<li><a class="btn work-button sub-sub-nav-button" id="space" href="https://scratch.mit.edu/projects/94734954/" target="_blank" role="button">Space Attack</a></li>-->
-				</ul>
-
-				<div class='nav-button sub-nav-button' id="find">Find Me</div>
-				<ul class='links'>
-					<li><a class="btn find-button sub-sub-nav-button" href="https://forum.freecodecamp.com/users/Spazcool/summary" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&emsp; freeCodeCamp<i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
-					<li><a class="btn find-button sub-sub-nav-button" href="https://cn.linkedin.com/in/douglaswrightiii" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>&emsp; LinkedIn</a></li>
-					<li><a class="btn find-button sub-sub-nav-button" href="https://github.com/Spazcool" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&emsp; GitHub</a></li>
-					<li><a class="btn find-button sub-sub-nav-button" href="http://codepen.io/SpazCool/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>&emsp; CodePen</a></li>
-					<li><a class="btn find-button sub-sub-nav-button" href="https://scratch.mit.edu/users/SpazCool/" target="_blank">&#128062; &emsp; Scratch</a></li>
-				</ul>
+					<div class='nav-button sub-nav-button' id="about">About Me</div>
+					<ul class='links'>
+						<li><a class="btn about-button sub-sub-nav-button" href="#about-link" role="button">About Me</a></li>
+						<li><a class="btn about-button sub-sub-nav-button" href="#created" role="button">Contact Me</a></li>
+					</ul>
+	
+					<div class='nav-button sub-nav-button' id="work">My Work</div>
+					<ul class='links'>
+						<li><a class="btn work-button sub-sub-nav-button" id="madmoney" href="http://www.madmonnaie.fr" target="_blank" role="button">Madmonnaie.fr</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="calc" href="/calc/" target="_blank" role="button">JS Calculator</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="pomo" href="/pomo/" target="_blank" role="button">Pomodoro Timer</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="tictac" href="/tictac/" target="_blank" role="button">Tic Tac Toe</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="simon" href="/simon/" target="_blank" role="button">Simon</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="mark" href="http://www.spazcool.com/markdown/" target="_blank" role="button">Markdown Previewer</a></li>
+						<li><a class="btn work-button sub-sub-nav-button" id="lead" href="http://www.spazcool.com/leaderboard/" target="_blank" role="button">fCC Leaderboard</a></li>
+					</ul>
+	
+					<div class='nav-button sub-nav-button' id="find">Find Me</div>
+					<ul class='links'>
+						<li><a class="btn find-button sub-sub-nav-button" href="https://forum.freecodecamp.com/users/Spazcool/summary" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i>&emsp; freeCodeCamp<i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+						<li><a class="btn find-button sub-sub-nav-button" href="https://cn.linkedin.com/in/douglaswrightiii" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>&emsp; LinkedIn</a></li>
+						<li><a class="btn find-button sub-sub-nav-button" href="https://github.com/Spazcool" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&emsp; GitHub</a></li>
+						<li><a class="btn find-button sub-sub-nav-button" href="http://codepen.io/SpazCool/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>&emsp; CodePen</a></li>
+						<li><a class="btn find-button sub-sub-nav-button" href="https://scratch.mit.edu/users/SpazCool/" target="_blank">&#128062; &emsp; Scratch</a></li>
+					</ul>
+					</div>
 				</div>
-				</div>
-	</div>
+		</div> -->
+
