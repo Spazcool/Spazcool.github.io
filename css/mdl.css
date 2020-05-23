@@ -3,15 +3,11 @@ body {
 	color: white;
 }
 
-/*WEATHER INFO*/
-.iconBlock {
-    position: absolute;
-    width: 100%;
-    margin-top: 18%;
+.timeBlock {
+    padding: 0;
 }
-
-.tempBlock {
-    width: 100%;
+.timeBlock > h4{
+    text-align: center;
 }
 
 /* spotlight page only  */
@@ -25,41 +21,19 @@ body {
     }
 }
 
-.tempBlock > h3, h5 {
-    text-align: center;
-}
-
-.tempBlock > ul >  li {
-    font-size: 1.5em;
-}
-
-.timeBlock {
-    padding: 0;
-    position: relative;
-}
-
-.previous {
-    display: block;
-    padding-bottom: 200px;
-}
-
-.previous::hover{
-    cursor: pointer;
-}
-
-#clear::hover{
-    cursor: pointer;
-}
-
-#search{
+.description {
     width: 100%;
 }
 
-#uvIndex{
-    text-align: center; 
-    display: inline-block; 
-    width: 2em;
+.description > h3, h5 {
+    text-align: center;
 }
+
+.description > ul >  li {
+    font-size: 1.5em;
+}
+
+
 
 /* MDL stuff */
 .layout-transparent {
@@ -102,4 +76,16 @@ body {
 .card-event > .mdl-card__actions,
 .card-event > .mdl-card__actions > .mdl-button {
     color: #fff;
+}
+
+.mdl-card{
+    background-color: rgb(27, 27, 27);
+}
+
+.project-card{
+    background-color: rgb(75, 75, 75);
+}
+
+.mdl-mini-footer__link-list > li > a:hover{
+    cursor: pointer;
 }
