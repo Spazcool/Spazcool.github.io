@@ -157,7 +157,6 @@ function displayProject(project, time){
                                 DOUG       
                             </h2>
                             <div class="screenshot">
-                                <img src='../imgs/body/seriousDoug.jpg' width='100%' style=/>
                             </div>
                         </div>
                     </div>
@@ -169,10 +168,7 @@ function displayProject(project, time){
                                 <li>DOUG</li>
                                 <li>Wind: DOUG</li>
                                 <li>Humidity: DOUG</li>
-                                <li>UV Index: 
-                                    <span id='uvIndex' style='background-color: red;'>   
-                                        DOUG
-                                    </span>
+                                <li>UV Index: Doug
                                 </li>
                             </ul>
                         </div>
