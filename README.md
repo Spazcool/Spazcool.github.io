@@ -21,3 +21,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [freeCodeCamp](https://www.freecodecamp.com/)
 * [CSS Browser Selector](http://rafael.adm.br/css_browser_selector/) - used for my footer, it's a God send
 * [W3 Schools Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
+		xhr.open('GET', 'https://covid-api.com/api/reports?date=2020-04-16', true);
+https://github.com/dataarts/webgl-globe
+http://www.chromeexperiments.com/globe >WebGL Globe
+Created by the Google Data Arts Team

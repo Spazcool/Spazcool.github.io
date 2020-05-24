@@ -21,7 +21,7 @@ DAT.Globe = function(container, opts) {
     c.setHSL( ( 0.6 - ( x * 0.5 ) ), 1.0, 0.5 );
     return c;
   };
-  var imgDir = opts.imgDir || '/globe/';
+  var imgDir = opts.imgDir || '/js/webgl-globe-master/globe/';
 
   var Shaders = {
     'earth' : {
@@ -86,7 +86,6 @@ DAT.Globe = function(container, opts) {
   var PI_HALF = Math.PI / 2;
 
   function init() {
-
     container.style.color = '#fff';
     container.style.font = '13px/20px Arial, sans-serif';
 
@@ -227,11 +226,11 @@ DAT.Globe = function(container, opts) {
             }));
       } else {
         if (this._baseGeometry.morphTargets.length < 8) {
-          console.log('t l',this._baseGeometry.morphTargets.length);
+          // console.log('t l',this._baseGeometry.morphTargets.length);
           var padding = 8-this._baseGeometry.morphTargets.length;
-          console.log('padding', padding);
+          // console.log('padding', padding);
           for(var i=0; i<=padding; i++) {
-            console.log('padding',i);
+            // console.log('padding',i);
             this._baseGeometry.morphTargets.push({'name': 'morphPadding'+i, vertices: this._baseGeometry.vertices});
           }
         }
