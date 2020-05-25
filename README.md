@@ -9,7 +9,7 @@ This is where I am hosting the best work I've done thus far in my coding journey
 
 ## Getting Started
 
-Just hop on over to the site [site](http://www.spazcool.com/nasa-quiz) & take a gander
+Just hop on over to the site [site](http://www.spazcool.com/nasa-quiz) & take a gander.
 
 ### Prerequisites
 
