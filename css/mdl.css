@@ -89,3 +89,12 @@ body {
 .mdl-mini-footer__link-list > li > a:hover{
     cursor: pointer;
 }
+
+/* TODO ADD SOME FANCY CSS ANIMATION STO THE 404 */
+#error{
+    height: 100%;
+    display: flex;
+    line-height: 80vh;
+    margin: 0;
+    font-size: 8em;
+}

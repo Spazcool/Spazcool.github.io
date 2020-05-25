@@ -1,12 +1,29 @@
 # Welcome to Spazcool's [Portfolio Page](http://www.spazcool.com/)
 
-This is where I am hosting the best work I've done thus far during these past 18 months of self-taught lunch breaks, nights and weekends. I know, there's a lot of pink but, I'm a child of the eigthies so you'll have to be strong. If you like what you see or just otherwise want to get in touch, don't hesitate. 
+This is where I am hosting the best work I've done thus far in my coding journey. Always a work in progress, expect changes.
+
+<p align="center">
+   <img width="70%" height="300vh" src="/imgs/desktop.gif">
+   <img width="20%" height="300vh" src="/imgs/mobile.gif">
+</p>
+
+## Getting Started
+
+Just hop on over to the site [site](http://www.spazcool.com/nasa-quiz) & take a gander
+
+### Prerequisites
+
+A browser and an internet connection is all you'll need.
+
+### Installing
+
+No installation required.
 
 ## Built With
 
-* JS
+* JS, jQuery & WebGL
 * HTML
-* CSS
+* CSS, SASS & Material Design Lite
 
 ## Authors
 
@@ -18,10 +35,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
+* [Covid API](https://covid-api.com)
+* [Data Arts](https://github.com/dataarts/webgl-globe)
+* [Chrome Experiments](http://www.chromeexperiments.com/globe)
 * [freeCodeCamp](https://www.freecodecamp.com/)
-* [CSS Browser Selector](http://rafael.adm.br/css_browser_selector/) - used for my footer, it's a God send
-* [W3 Schools Slideshow](https://www.w3schools.com/howto/howto_js_slideshow.asp)
-		xhr.open('GET', 'https://covid-api.com/api/reports?date=2020-04-16', true);
-https://github.com/dataarts/webgl-globe
-http://www.chromeexperiments.com/globe >WebGL Globe
-Created by the Google Data Arts Team
+

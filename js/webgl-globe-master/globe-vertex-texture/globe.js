@@ -154,7 +154,7 @@ DAT.Globe = function(container, colorFn) {
   function createPoints() {
 
     var subgeo = new THREE.Geometry();
-    console.log(gridGeo);
+    // console.log(gridGeo);
 
     for (i = 0; i < gridGeo.vertices.length; i ++) {
       var x = gridGeo.vertices[i].position.x;
@@ -298,7 +298,7 @@ DAT.Globe = function(container, colorFn) {
   }
 
   function onWindowResize( event ) {
-    console.log('resize');
+    // console.log('resize');
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize( window.innerWidth, window.innerHeight );
