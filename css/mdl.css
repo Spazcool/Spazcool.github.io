@@ -10,17 +10,6 @@ body {
     text-align: center;
 }
 
-/* spotlight page only  */
-.spotlight{
-    margin: 75% auto; 
-}
-
-@media only screen and (max-width: 600px) {
-    .spotlight{
-        margin: auto; 
-    }
-}
-
 .description {
     width: 100%;
 }
@@ -32,8 +21,6 @@ body {
 .description > ul >  li {
     font-size: 1.5em;
 }
-
-
 
 /* MDL stuff */
 .layout-transparent {
@@ -90,11 +77,14 @@ body {
     cursor: pointer;
 }
 
-/* TODO ADD SOME FANCY CSS ANIMATION STO THE 404 */
+/* TODO ADD SOME FANCY CSS ANIMATIONS TO THE 404 */
 #error{
     height: 100%;
     display: flex;
     line-height: 80vh;
     margin: 0;
     font-size: 8em;
+}
+.blocks{
+    justify-content: center;
 }
