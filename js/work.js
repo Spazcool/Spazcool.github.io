@@ -90,14 +90,6 @@ let projects = [
         professional : false
     },
     {
-        name: 'Hexy Simon',
-        url: '/simonGame',
-        repo: 'https://github.com/Spazcool/simonGame',
-        description: 'The game of Simon where the user must follow the order of sequences presented to them by their computer opponent. Built with jQuery & Bootstrap.',
-        imagePath : 'simonGame',
-        professional : false
-    },
-    {
         name: 'Tic Tac Toe',
         url: '/ticTacToe',
         repo: 'https://github.com/Spazcool/ticTacToe',
@@ -106,6 +98,14 @@ let projects = [
         professional : false
     },
 // TODO UNCOMMENT WHEN THEY'VE BEEN FIXED UP
+    // {
+    //     name: 'Hexy Simon',
+    //     url: '/simonGame',
+    //     repo: 'https://github.com/Spazcool/simonGame',
+    //     description: 'The game of Simon where the user must follow the order of sequences presented to them by their computer opponent. Built with jQuery & Bootstrap.',
+    //     imagePath : 'simonGame',
+    //     professional : false
+    // },
     // {
     //     name: 'Markdown Previewer',
     //     url: '/markdown',
@@ -164,9 +164,9 @@ function displayProject(project, time){
 
     time = (time + 1) * 100;
     $(card).hide().appendTo('.blocks').delay(time).fadeIn('slow')
-// TODO SWAP OUT IMGS FOR GIF ON CARD CLICK
-    // $(card).on('click', ()=>{
-        // dig down to img change src to gif
-        // <img src='../imgs/projects/${project.imagePath}/mobile.png' width='100%' />
-    // })
+    $(".screenshot").mouseenter(function(){
+        let imgSrc = $(this).children().attr("src");
+        let gifSrc = imgSrc.slice(0, -3) + 'gif';
+        $(this).children().attr("src", gifSrc);
+    })
 }
