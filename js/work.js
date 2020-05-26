@@ -157,7 +157,7 @@ function displayProject(project, time){
             </div>
         </div>`;
 
-    time = (time + 1) * 500;
+    time = (time + 1) * 100;
     $(card).hide().appendTo('.blocks').delay(time).fadeIn('slow')
 // TODO SWAP OUT IMGS FOR GIF ON CARD CLICK
     // $(card).on('click', ()=>{
