@@ -152,7 +152,12 @@ function displayProject(project, time){
             <div class="mdl-card__actions mdl-card--border center-items">
                 <div class="description">
                     <p>${project.description}</p>
-                    <a href=${project.url}>${project.name}</a>
+                    <div style="text-align:center;">
+                        <a href=${project.url}><i class="fas fa-globe"></i> ${project.name}</a>
+                        <br/>
+                        <br/>
+                        <a href=${project.repo}><i class="fab fa-github-square"></i> Repo</a>
+                    </div>
                 </div>
             </div>
         </div>`;
