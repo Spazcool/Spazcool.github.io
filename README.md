@@ -3,8 +3,8 @@
 This is where I am hosting the best work I've done thus far in my coding journey. Always a work in progress, expect changes.
 
 <p align="center">
-   <img width="70%" height="300vh" src="/imgs/portfolio/desktop.gif">
-   <img width="20%" height="300vh" src="/imgs/portfolio/mobile.gif">
+   <img width="70%" height="300vh" src="/imgs/projects/portfolio/desktop.gif">
+   <img width="20%" height="300vh" src="/imgs/projects/portfolio/mobile.gif">
 </p>
 
 ## Getting Started
