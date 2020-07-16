@@ -98,6 +98,14 @@ let projects = [
         professional : false
     },
     {
+      name: 'Burger App',
+      url: 'https://add-devour-vomit-burger.herokuapp.com/',
+      repo: 'https://github.com/Spazcool/burger-app',
+      description: 'A simple demo of a fullstack application, Eat-Da-Burger! is hosted in Heroku & utilizes a Node backend, using a RESTful API routed with Express that makes requests to a MySQL database & ultimately serves the user a view using Handlebars templates.',
+      imagePath : 'burger-app',
+      professional : false
+    },
+    {
       name: 'Digital Dude',
       url: 'http://www.digital-dude.com',
       repo: 'https://github.com/megan-pg/tamagotchi',
@@ -105,14 +113,7 @@ let projects = [
       imagePath : 'digital-dude',
       professional : false
     },
-    {
-      name: 'Burger App',
-      url: 'https://add-devour-vomit-burger.herokuapp.com/',
-      repo: 'https://github.com/Spazcool/burger-app',
-      description: 'A simple demo of a fullstack application, Eat-Da-Burger! is hosted in Heroku & utilizes a Node backend, using a RESTful API routed with Express that makes requests to a MySQL database & ultimately serves the user a view using Handlebars templates.',
-      imagePath : 'burger-app',
-      professional : false
-  },
+
 // TODO UNCOMMENT WHEN THEY'VE BEEN FIXED UP
     // {
     //     name: 'Hexy Simon',
