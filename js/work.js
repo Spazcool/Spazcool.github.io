@@ -27,7 +27,7 @@ let projects = [
     },
     {
         name: 'Covid-19 Tracker',
-        url: 'http://covidtracker-us.com',
+        url: 'http://covidtracking-us.com',
         repo: 'https://github.com/Spazcool/covid-data-collector',
         description: 'Web app offering current State-by-State data related to the Covid-19 pandemic. Built with jQuery, styled with Bulma & utilizing HighCharts API for data visualization.',
         imagePath : 'covid-tracker',
@@ -98,13 +98,21 @@ let projects = [
         professional : false
     },
     {
-        name: 'Burger App',
-        url: 'https://add-devour-vomit-burger.herokuapp.com/',
-        repo: 'https://github.com/Spazcool/burger-app',
-        description: 'A simple demo of a fullstack application, Eat-Da-Burger! is hosted in Heroku & utilizes a Node backend, using a RESTful API routed with Express that makes requests to a MySQL database & ultimately serves the user a view using Handlebars templates.',
-        imagePath : 'burger-app',
-        professional : false
+      name: 'Digital Dude',
+      url: 'http://www.digital-dude.com',
+      repo: 'https://github.com/megan-pg/tamagotchi',
+      description: 'A retro full-stack clone of the original Tamagotchi game from the 80\'s. Create an account, add some pets & keep them alive as long as you can.',
+      imagePath : 'digital-dude',
+      professional : false
     },
+    {
+      name: 'Burger App',
+      url: 'https://add-devour-vomit-burger.herokuapp.com/',
+      repo: 'https://github.com/Spazcool/burger-app',
+      description: 'A simple demo of a fullstack application, Eat-Da-Burger! is hosted in Heroku & utilizes a Node backend, using a RESTful API routed with Express that makes requests to a MySQL database & ultimately serves the user a view using Handlebars templates.',
+      imagePath : 'burger-app',
+      professional : false
+  },
 // TODO UNCOMMENT WHEN THEY'VE BEEN FIXED UP
     // {
     //     name: 'Hexy Simon',
