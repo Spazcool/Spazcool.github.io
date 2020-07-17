@@ -106,6 +106,14 @@ let projects = [
       professional : false
     },
     {
+      name: 'Leaderboard',
+      url: '/leaderboard',
+      repo: 'https://github.com/Spazcool/leaderboard',
+      description: 'A React-based leaderboard app, pulling data from freeCodeCamp\'s most recent forum users.',
+      imagePath : 'leaderboard',
+      professional : false
+    },
+    {
       name: 'Digital Dude',
       url: 'http://www.digital-dude.com',
       repo: 'https://github.com/megan-pg/tamagotchi',
@@ -129,14 +137,6 @@ let projects = [
     //     repo: 'https://github.com/Spazcool/markdown',
     //     description: 'Checkout what you\'re writing in Markdown. This simple app allows the user to preview their Markdown document in realtime. Built with React.',
     //     imagePath : 'markdown',
-    //     professional : false
-    // },
-    // {
-    //     name: 'Leaderboard',
-    //     url: '/leaderboard',
-    //     repo: 'https://github.com/Spazcool/leaderboard',
-    //     description: 'A simple leaderboard. Built with React.',
-    //     imagePath : 'leaderboard',
     //     professional : false
     // },
     // {
