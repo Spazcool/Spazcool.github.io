@@ -29,7 +29,7 @@ let projects = [
       name: 'Digital Dude',
       url: 'http://www.digital-dude.com',
       repo: 'https://github.com/megan-pg/tamagotchi',
-      description: 'A retro full-stack clone of the original Tamagotchi game from the 80\'s. Create an account, add some pets & keep them alive as long as you can.',
+      description: 'A retro full-stack clone of the original Tamagotchi game from the 80\'s. Create an account, add some pets & keep them alive as long as you can. Built with Node, Sequelize, jQuery, JWT & Materialize.',
       imagePath : 'digital-dude',
       professional : false
     },
@@ -145,6 +145,14 @@ let projects = [
     //     repo: 'https://github.com/Spazcool/react-recipe',
     //     description: 'A simple recipe board. Built with React.',
     //     imagePath : 'react-recipe',
+    //     professional : false
+    // },
+    // {
+    //     name: 'Recipe Board',
+    //     url: '/express-recipe',
+    //     repo: 'https://github.com/Spazcool/express-recipe',
+    //     description: 'A simple recipe board. Built with Express.',
+    //     imagePath : 'express-recipe',
     //     professional : false
     // }
 ];
