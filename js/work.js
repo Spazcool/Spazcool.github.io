@@ -26,76 +26,12 @@ let projects = [
         professional : true
     },
     {
-        name: 'Covid-19 Tracker',
-        url: 'http://covidtracking-us.com',
-        repo: 'https://github.com/Spazcool/covid-data-collector',
-        description: 'Web app offering current State-by-State data related to the Covid-19 pandemic. Built with jQuery, styled with Bulma & utilizing HighCharts API for data visualization.',
-        imagePath : 'covid-tracker',
-        professional : false
-    },
-    {
-        name: 'Weather Dashboard',
-        url: '/weather-dashboard',
-        repo: 'https://github.com/Spazcool/weather-dashboard',
-        description: 'Simple weather app offering geolocation forecast on intial visit, search functionality, current & five-day forecasts. Built with jQuery, Material Design Lite & utilizing TomTom, OpenWeather & IP-Info APIs for data.',
-        imagePath : 'weather-dashboard',
-        professional : false
-    },
-    {
-        name: 'Day Planner',
-        url: '/day-planner',
-        repo: 'https://github.com/Spazcool/day-planner',
-        description : 'Plan your day past, present & future. Basic task scheduler offering create & delete functionality for each hour of any day the user chooses. Built with jQuery, Bootstrap and Moment.js.',
-        imagePath : 'day-planner',
-        professional : false
-    },
-    {
-        name: 'Password Generator',
-        url: '/password-generator',
-        repo: 'https://github.com/Spazcool/password-generator',
-        description: 'Create a randomized & complex password easily. Takes multiple user inputs & efficietnly computes a password that is offered and ready to copy. Built with jQuery & Bootstrap.',
-        imagePath : 'password-generator',
-        professional : false
-    },
-    {
-        name: 'jQuery Calculator',
-        url: '/calculator',
-        repo: 'https://github.com/Spazcool/calculator',
-        description: 'A basic JS powered & Bootstrap styled calculator. One of my first projects, be gentle.',
-        imagePath : 'calculator',
-        professional : false
-    },
-    {
-        name: 'Pomodoro Timer',
-        url: '/pomodoro',
-        repo: 'https://github.com/Spazcool/pomodoro',
-        description : 'A pomodoro (i.e. tomato) timer to nudge you into starting any kind of task. Includes time-set & pausing functionality. Built with jQuery & styled with Bootstrap.',
-        imagePath : 'pomodoro',
-        professional : false
-    },
-    {
-        name: 'Repsonsive Portfolio',
-        url: '/responsive-portfolio',
-        repo: 'https://github.com/Spazcool/responsive-portfolio',
-        description: 'Simple demo site displaying the use of responsive design. Built with Bootstrap & utilizing NASA\'s APOD API.',
-        imagePath : 'responsive-portfolio',
-        professional : false
-    },
-    {
-        name: 'NASA Quiz',
-        url: '/nasa-quiz',
-        repo: 'https://github.com/Spazcool/nasa-quiz',
-        description : 'An interactive NASA-themed multiple choice quiz. Built with jQuery, styled with Bootstrap & utilizing the JSONBin API.',
-        imagePath : 'nasa-quiz',
-        professional : false
-    },
-    {
-        name: 'Tic Tac Toe',
-        url: '/ticTacToe',
-        repo: 'https://github.com/Spazcool/ticTacToe',
-        description: 'Battle against the computer in this classic game. Built with jQuery & Bootstrap.',
-        imagePath : 'ticTacToe',
-        professional : false
+      name: 'Digital Dude',
+      url: 'http://www.digital-dude.com',
+      repo: 'https://github.com/megan-pg/tamagotchi',
+      description: 'A retro full-stack clone of the original Tamagotchi game from the 80\'s. Create an account, add some pets & keep them alive as long as you can.',
+      imagePath : 'digital-dude',
+      professional : false
     },
     {
       name: 'Burger App',
@@ -114,11 +50,83 @@ let projects = [
       professional : false
     },
     {
-      name: 'Digital Dude',
-      url: 'http://www.digital-dude.com',
-      repo: 'https://github.com/megan-pg/tamagotchi',
-      description: 'A retro full-stack clone of the original Tamagotchi game from the 80\'s. Create an account, add some pets & keep them alive as long as you can.',
-      imagePath : 'digital-dude',
+      name: 'Covid-19 Tracker',
+      url: 'http://covidtracking-us.com',
+      repo: 'https://github.com/Spazcool/covid-data-collector',
+      description: 'Web app offering current State-by-State data related to the Covid-19 pandemic. Built with jQuery, styled with Bulma & utilizing HighCharts API for data visualization.',
+      imagePath : 'covid-tracker',
+      professional : false
+    },
+    {
+      name: 'Weather Dashboard',
+      url: '/weather-dashboard',
+      repo: 'https://github.com/Spazcool/weather-dashboard',
+      description: 'Simple weather app offering geolocation forecast on intial visit, search functionality, current & five-day forecasts. Built with jQuery, Material Design Lite & utilizing TomTom, OpenWeather & IP-Info APIs for data.',
+      imagePath : 'weather-dashboard',
+      professional : false
+    },
+    {
+      name: 'Day Planner',
+      url: '/day-planner',
+      repo: 'https://github.com/Spazcool/day-planner',
+      description : 'Plan your day past, present & future. Basic task scheduler offering create & delete functionality for each hour of any day the user chooses. Built with jQuery, Bootstrap and Moment.js.',
+      imagePath : 'day-planner',
+      professional : false
+    },
+    {
+      name: 'Password Generator',
+      url: '/password-generator',
+      repo: 'https://github.com/Spazcool/password-generator',
+      description: 'Create a randomized & complex password easily. Takes multiple user inputs & efficietnly computes a password that is offered and ready to copy. Built with jQuery & Bootstrap.',
+      imagePath : 'password-generator',
+      professional : false
+    },
+    {
+      name: 'Markdown Previewer',
+      url: '/markdown',
+      repo: 'https://github.com/Spazcool/markdown',
+      description: 'Checkout what you\'re writing in Markdown. This simple app allows the user to preview their Markdown document in realtime. Built with React.',
+      imagePath : 'markdown',
+      professional : false
+    },
+  {
+      name: 'jQuery Calculator',
+      url: '/calculator',
+      repo: 'https://github.com/Spazcool/calculator',
+      description: 'A basic JS powered & Bootstrap styled calculator. One of my first projects, be gentle.',
+      imagePath : 'calculator',
+      professional : false
+    },
+    {
+      name: 'Pomodoro Timer',
+      url: '/pomodoro',
+      repo: 'https://github.com/Spazcool/pomodoro',
+      description : 'A pomodoro (i.e. tomato) timer to nudge you into starting any kind of task. Includes time-set & pausing functionality. Built with jQuery & styled with Bootstrap.',
+      imagePath : 'pomodoro',
+      professional : false
+    },
+    {
+      name: 'Repsonsive Portfolio',
+      url: '/responsive-portfolio',
+      repo: 'https://github.com/Spazcool/responsive-portfolio',
+      description: 'Simple demo site displaying the use of responsive design. Built with Bootstrap & utilizing NASA\'s APOD API.',
+      imagePath : 'responsive-portfolio',
+      professional : false
+    },
+    {
+      name: 'NASA Quiz',
+      url: '/nasa-quiz',
+      repo: 'https://github.com/Spazcool/nasa-quiz',
+      description : 'An interactive NASA-themed multiple choice quiz. Built with jQuery, styled with Bootstrap & utilizing the JSONBin API.',
+      imagePath : 'nasa-quiz',
+      professional : false
+    },
+    {
+      name: 'Tic Tac Toe',
+      url: '/ticTacToe',
+      repo: 'https://github.com/Spazcool/ticTacToe',
+      description: 'Battle against the computer in this classic game. Built with jQuery & Bootstrap.',
+      imagePath : 'ticTacToe',
       professional : false
     },
 
@@ -129,14 +137,6 @@ let projects = [
     //     repo: 'https://github.com/Spazcool/simonGame',
     //     description: 'The game of Simon where the user must follow the order of sequences presented to them by their computer opponent. Built with jQuery & Bootstrap.',
     //     imagePath : 'simonGame',
-    //     professional : false
-    // },
-    // {
-    //     name: 'Markdown Previewer',
-    //     url: '/markdown',
-    //     repo: 'https://github.com/Spazcool/markdown',
-    //     description: 'Checkout what you\'re writing in Markdown. This simple app allows the user to preview their Markdown document in realtime. Built with React.',
-    //     imagePath : 'markdown',
     //     professional : false
     // },
     // {
