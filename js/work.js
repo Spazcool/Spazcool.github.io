@@ -140,19 +140,44 @@ let projects = [
     //     professional : false
     // },
     // {
-    //     name: 'Recipe Board',
+    //     name: 'React Recipe Board',
     //     url: '/react-recipe',
     //     repo: 'https://github.com/Spazcool/react-recipe',
     //     description: 'A simple recipe board. Built with React.',
     //     imagePath : 'react-recipe',
     //     professional : false
     // },
+     // {
+    //     name: 'Express Note Taker',
+    //     url: 'https://whispering-brushlands-54134.herokuapp.com/',
+    //     repo: 'https://github.com/Spazcool/note-taker',
+    //     description: 'An application to write, save, uppdate and delete notes (i.e. CRUD). This application uses an Express backend and and mimics a DB with a JSON file.',
+    //     imagePath : 'note-taker',
+    //     professional : false
+    // },
+    // ----------------- CLI ONES ? -----------------
     // {
-    //     name: 'Recipe Board',
-    //     url: '/express-recipe',
-    //     repo: 'https://github.com/Spazcool/express-recipe',
-    //     description: 'A simple recipe board. Built with Express.',
-    //     imagePath : 'express-recipe',
+    //     name: 'CLI Team Builder',
+    //     url: '/team-builder',
+    //     repo: 'https://github.com/Spazcool/team-builder',
+    //     description: 'A CLI app to build a software engineering team. The application prompts the user for information about the various team members. Leveraging Inquirer, the user can input any number of team members, and they may be a mix of managers, engineers and interns. When all members have been defined the app generates an HTML webpage that displays draggable card summaries for each person. Provides a clean UI for simple user input & offers JSON import for larger teams. This app runs in a Node environment..',
+    //     imagePath : 'team-builder',
+    //     professional : false
+    // },
+    // {
+    //     name: 'CLI Employee Tracker',
+    //     url: '/employee-tracker',
+    //     repo: 'https://github.com/Spazcool/employee-tracker',
+    //     description: 'A CLI app to build & manage teams of employees. The application prompts the user for information about the various employees, their roles and departments; querying a MySQL database & ultimately inserting or updating the relevant item. This app runs in a Node environment and leverages the Inquirer & MySQL packages.',
+    //     imagePath : 'employee-tracker',
+    //     professional : false
+    // },
+    // {
+    //     name: 'CLI README Generator',
+    //     url: '/readme-generator',
+    //     repo: 'https://github.com/Spazcool/readme-generator',
+    //     description: 'A simple CLI application that assists in the creation of a consistent README. Leveraging Inquirer, the user is asked a series of quesitons, their answers providing the text styled & saved to a new README file. This app runs in a Node environment.',
+    //     imagePath : 'readme-generator',
     //     professional : false
     // }
 ];
