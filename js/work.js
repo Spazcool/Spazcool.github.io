@@ -6,8 +6,8 @@ $(document).ready(function() {
     }));
 });
 
-let projectsPage = this.location.pathname.includes('projects.html');
-let professionalPage = this.location.pathname.includes('professional.html');
+let projectsPage = this.location.pathname.includes('projects');
+let professionalPage = this.location.pathname.includes('professional');
 let projects = [
     {
         name: 'Madmonnaie',
